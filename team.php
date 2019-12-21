@@ -27,7 +27,7 @@
 	              <div class="front" style="background-image: url(images/3.jpg);">
 	                <div class="box">
 	                  <h2>Stephen D. Sprenkle</h2>
-	                  <p>Retired Partner</p>
+	                  <p>Retired</p>
 	                </div>
 	              </div>
 	              <div class="back">
@@ -40,7 +40,7 @@
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/3.jpg" alt="">
 	                  </div>
-	                  <div class="name align-self-center">Stephen D. Sprenkle <span class="position">Retired Partner</span></div>
+	                  <div class="name align-self-center">Stephen D. Sprenkle <span class="position">Retired</span></div>
 	                </div>
 	              </div>
 	            </div>
@@ -109,7 +109,7 @@
 	                <!-- back content -->
 	                <blockquote>
                     <p>Mr. Lawrence has lived in the Monterey area since 2015, and works at Sprenkle, Georgariou & Dilles, LLP. as an associate attorney.<br>
-					<a href="nicholas.html" class="nav-link">Read more here.</a></p>		                
+					<a href="samuel.html" class="nav-link">Read more here.</a></p>		                
 					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
@@ -131,7 +131,7 @@
         </div>
         <div class="row">
 			<div class="col-lg-fifth col-sm-6">
-        		<div class="block-2 ftco-animate">
+        		<div class="block-2-staff ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(images/erg_square.jpg);">
 	                <div class="box">
@@ -155,7 +155,7 @@
 	          </div>
         	</div>
         	<div class="col-lg-fifth col-sm-6">
-        		<div class="block-2 ftco-animate">
+        		<div class="block-2-staff ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(images/edw_square.jpg);">
 	                <div class="box">
@@ -179,7 +179,7 @@
 	          </div>
         	</div>
         	<div class="col-lg-fifth col-sm-6">
-        		<div class="block-2 ftco-animate">
+        		<div class="block-2-staff ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(images/srv_square.jpg);">
 	                <div class="box">
@@ -203,7 +203,7 @@
 	          </div>
         	</div>
         	<div class="col-lg-fifth col-sm-6">
-        		<div class="block-2 ftco-animate">
+        		<div class="block-2-staff ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(images/acl_square.jpg);">
 	                <div class="box">
@@ -227,7 +227,7 @@
 	          </div>
         	</div>
 			<div class="col-lg-fifth col-sm-6">
-        		<div class="block-2 ftco-animate">
+        		<div class="block-2-staff ftco-animate">
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(images/lbg_square.jpg);">
 	                <div class="box">

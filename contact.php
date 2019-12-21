@@ -30,7 +30,7 @@
             <p><span>Email:</span> <a href="mailto:info@forworker.com">info@forkworker.com</a></p>
           </div>
           <div class="col-md-3">
-            <p><span>Website</span> <a href="#">forworker.com</a></p>
+            <p><span>Website:</span> <a href="#">forworker.com</a></p>
           </div>
         </div>
         <div class="row block-9">
@@ -70,39 +70,18 @@
 			
           
           </div>
-		  <div class="col-lg-4 d-flex">
-			<p><BR>Useful forms:<br>
-			<a target="_blank" href="pdf/payment_record.pdf">Payment record</a><br>
-			<a target="_blank" href="pdf/mileageLog2018.pdf">Mileage log form</a><br>
-			<a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Treatment denial form</a><br>
-			<a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Prescription denial form</a><br>
-			<a target="_blank" href="pdf/mileage2018.pdf">Mileage Reimbursement Rates</a>
+		  <div class="col-lg-4">
+			<p><br>Useful forms:</p>
+			<ul>
+			  <li><a target="_blank" href="pdf/payment_record.pdf">Payment record</a></li>
+			  <li><a target="_blank" href="pdf/mileageLog2018.pdf">Mileage log form</a></li>
+			  <li><a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Treatment denial form</a></li>
+			  <li><a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Prescription denial form</a></li>
+  			  <li><a target="_blank" href="pdf/mileage2018.pdf">Mileage Reimbursement Rates</a></li>
+			</ul>
           </div>
 
           
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section-parallax bg-secondary">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-4 mb-4">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
