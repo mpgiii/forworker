@@ -142,7 +142,7 @@
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>Insert small bio<br>
+	                  <p><br>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
@@ -160,13 +160,13 @@
 	              <div class="front" style="background-image: url(images/edw_square.jpg);">
 	                <div class="box">
 	                  <h2>Edna Williams</h2>
-	                  <p>Legal Assistant</p>
+	                  <p>Legal Assistant to Michael Georgariou II</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>Insert small bio<br>
+	                  <p><br>
 					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
@@ -184,13 +184,13 @@
 	              <div class="front" style="background-image: url(images/srv_square.jpg);">
 	                <div class="box">
 	                  <h2>Sandra Acosta</h2>
-	                  <p>Legal Assistant</p>
+	                  <p>Legal Assistant to Nicholas Dilles</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-					<p>Insert small bio<br>                
+					<p><br>                
 					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
@@ -208,13 +208,13 @@
 	              <div class="front" style="background-image: url(images/acl_square.jpg);">
 	                <div class="box">
 	                  <h2>Arlett Campos</h2>
-	                  <p>Legal Assistant</p>
+	                  <p>Legal Assistant to Samuel Lawrence</p>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-                    <p>Insert small bio<br>		                
+                    <p><br>		                
 					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
@@ -238,7 +238,7 @@
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-                    <p>Insert small bio<br>		                
+                    <p><br>		                
 					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
