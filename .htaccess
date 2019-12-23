@@ -9,7 +9,7 @@ RewriteBase /
 #Move all links from sprenklegeorgariou.com to forworker.com
 RewriteCond %{HTTP_HOST} ^sprenklegeorgariou.com [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.sprenklegeorgariou.com [NC]
-RewriteRule ^(.*)$ http://forworker.com$1 [L,R=301,NC]
+RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
 
 #Redirect 404s to homepage
 ErrorDocument 404 http://forworker.com/
