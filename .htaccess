@@ -14,6 +14,12 @@ RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
 #Redirect 404s
 ErrorDocument 404 http://forworker.com/404.html
 
+#Disallow access from non-site folders
+RedirectMatch 403 ^/css/*
+RedirectMatch 403 ^/fonts/*
+RedirectMatch 403 ^/js/*
+RedirectMatch 403 ^/scss/*
+
 #Redirect old pages to the new pages
 Redirect 301 /attorney.html /team.html
 Redirect 301 /michael-p-georgariou-ii.html /michael.html
