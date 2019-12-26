@@ -42,7 +42,7 @@
 			  <li>Can the individual do any of his/her Past Relevant Work?</li>
 			  <li>Can the individual make an adjustment to any other work?</li>
 			</ul>
-			<h2 class="mb-3 mt-5">How We Can Help:</h5>
+			<h2 class="mb-3 mt-5">How We Can Help:</h2>
             <p>Most claims are denied at the initial application level. If you are not successful in your initial application, you have the right to seek reconsideration of that determination within 60 days. If you are denied on reconsideration, you have the right to request a hearing in front of a Social Security Administrative Law Judge within 60 days of the denial on reconsideration.</p>
             <p>In order to obtain SSDI or SSI benefits, it is not required that you obtain an attorney. However, particularly if you are denied at the initial application level, we recommend that you do immediately consult an attorney.</p>
 			<p>If you decide to retain an attorney, the fee that our office charges is 25% of any past benefits you may be entitled to or $6,000.00, whichever is less. The fee is paid by the Social Security Administration out of any benefits obtained on your behalf by the attorney. If you are not successful in obtaining benefits, then there is no fee.</p>

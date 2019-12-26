@@ -150,10 +150,6 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
-	                <blockquote>
-	                  <p><br>
-	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/erg_square.jpg" alt="">
@@ -174,10 +170,6 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
-	                <blockquote>
-	                  <p><br>
-					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/edw_square.jpg" alt="">
@@ -198,10 +190,6 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
-	                <blockquote>
-					<p><br>                
-					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/srv_square.jpg" alt="">
@@ -222,10 +210,6 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
-	                <blockquote>
-                    <p><br>		                
-					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/acl_square.jpg" alt="">
@@ -246,10 +230,6 @@
 	                </div>
 	              </div>
 	              <div class="back">
-	                <!-- back content -->
-	                <blockquote>
-                    <p><br>		                
-					</blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/lbg_square.jpg" alt="">
@@ -269,7 +249,7 @@
           
 		    <div class="image mr-3 align-self-center">
 		      <br>
-			  <div style="text-align:center"><img src="images/back_staff.jpg" alt="" width="100%"></div>
+			  <div style="text-align:center"><img src="images/back_staff.jpg" alt="back staff" style="width:100%;"></div>
 		    </div>
 		    </div>
           </div>

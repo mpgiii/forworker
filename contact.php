@@ -83,8 +83,8 @@
 			<ul>
 			  <li><a target="_blank" href="pdf/payment_record.pdf">Payment record</a></li>
 			  <li><a target="_blank" href="pdf/mileageLog2018.pdf">Mileage log form</a></li>
-			  <li><a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Treatment denial form</a></li>
-			  <li><a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Prescription denial form</a></li>
+			  <li><a target="_blank" href="pdf/Treatment-Medication%20Denial%20form%202016.pdf">Treatment denial form</a></li>
+			  <li><a target="_blank" href="pdf/Treatment-Medication%20Denial%20form%202016.pdf">Prescription denial form</a></li>
   			  <li><a target="_blank" href="pdf/mileage2018.pdf">Mileage Reimbursement Rates</a></li>
 			</ul>
           </div>
