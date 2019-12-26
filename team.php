@@ -130,6 +130,7 @@
 	            </div>
 	          </div>
         	</div>
+		</div>
 			<!-- staff -->
 			
 		<div class="container-fluid">
