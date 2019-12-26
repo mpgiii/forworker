@@ -29,24 +29,24 @@
 			</div>
 			<div class="col-lg-9 col-sm-6">
 				<p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and limited his practice to the representation of public safety officers.</p>
-				<h5 class="mb-3">Education:</h2>
+				<h5 class="mb-3">Education:</h5>
 				<p>J.D., University of Pittsburgh, 1973<br>
 				A.B., Columbia College, 1970</p>
-				<h5 class="mb-3">Memberships:</h2>
+				<h5 class="mb-3">Memberships:</h5>
 				<p>California Applicants' Attorneys Association (CAAA). Monterey County Chapter of CAAA.<br>
                 Monterey Bay Workers' Compensation Attorneys Association (WBWCA). Monterey County Bar Association.</p>
-				<h5 class="mb-3">Admitted:</h2>
+				<h5 class="mb-3">Admitted:</h5>
 				<p>State Bar of California. U.S. District Courts, Northern District of California.</p>
-				<h5 class="mb-3">Community:</h2>
+				<h5 class="mb-3">Community:</h5>
 				<p>Mr. Sprenkle started the AYSO VIP soccer program for special needs children in Monterey County in 1998 and continues to actively participate in that program as well as an annual tournament for teams from Northern California and Nevada that he helped start in 2003. He is also on the Board of Directors of the Starlantz Foundation which provides healthcare services and agroforestry support for peasant mountain farmers In Haiti.</p>
-				<h5 class="mb-3">Personal:</h2>
+				<h5 class="mb-3">Personal:</h5>
 				<p>His favorite hobby is his oak tree reforestation project here in Monterey County.</p>
             </div>
           
 
         </div>
       </div>
-    <center><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></center>
+    <div style="text-align:center"><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></div>
     </section> <!-- .section -->
 
 

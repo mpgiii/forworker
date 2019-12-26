@@ -66,7 +66,7 @@
                 <input type="text" class="form-control" name="doi" placeholder="Date of injury">
               </div>
               <div class="form-group">
-                <textarea id="" cols="30" rows="7" class="form-control" name="injury" placeholder="Describe injury/conidition"></textarea>
+                <textarea id="injury" cols="30" rows="7" class="form-control" name="injury" placeholder="Describe injury/conidition"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">

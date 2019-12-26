@@ -29,24 +29,24 @@
 			</div>
 			<div class="col-lg-9 col-sm-6">
 				<p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization.</p>
-				<h5 class="mb-3">Education:</h2>
+				<h5 class="mb-3">Education:</h5>
 				<p>J.D., McGeorge School of Law, University of the Pacific, 2000<br>
 				B.S. Business Management, Brigham Young University, 1995</p>
-				<h5 class="mb-3">Memberships:</h2>
+				<h5 class="mb-3">Memberships:</h5>
 				<p>California Applicants' Attorneys Association (CAAA). Monterey County Chapter of CAAA.<br>
                 Monterey Bay Workers' Compensation Attorneys Association (WBWCA). Monterey County Bar Association.</p>
-				<h5 class="mb-3">Admitted:</h2>
+				<h5 class="mb-3">Admitted:</h5>
 				<p>State Bar of California. U.S. District Courts, Northern District of California, Central District of California and Southern District of California.</p>
-				<h5 class="mb-3">Community:</h2>
+				<h5 class="mb-3">Community:</h5>
 				<p>Mr. Georgariou is an active and devoted member of his church.</p>
-				<h5 class="mb-3">Personal:</h2>
+				<h5 class="mb-3">Personal:</h5>
 				<p>Mr. Georgariou is bilingual (English-Spanish) from serving his church in Madrid, Spain for two years. He was born and raised in Salinas, California. He graduated from Palma High School in Salinas, California. He is a devoted husband and father. He enjoys golf, darts, theater, and movies.</p>
             </div>
           
 
         </div>
       </div>
-    <center><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></center>
+    <div style="text-align:center"><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></div>
     </section> <!-- .section -->
 
 

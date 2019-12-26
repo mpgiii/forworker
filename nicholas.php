@@ -46,7 +46,7 @@
 
         </div>
       </div>
-    <center><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></center>
+    <div style="text-align:center"><a href="javascript:history.back()"><h6><br>&lt; Back</h6></a></div>
     </section> <!-- .section -->
 
 

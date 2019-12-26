@@ -28,6 +28,7 @@
             <h2 class="mb-4">Our Attorneys</h2>
           </div>
         </div>
+		</div>
         <div class="row">
         	<div class="col-lg-3 col-sm-6">
         		<div class="block-2 ftco-animate">
@@ -258,6 +259,7 @@
 	            </div>
 	          </div>
         	</div>
+			</div>
     	</div>
 		<div class="container-fluid">
           <div class="row justify-content-center mb-5 pb-3">
@@ -266,7 +268,7 @@
           
 		    <div class="image mr-3 align-self-center">
 		      <br>
-			  <center><img src="images/back_staff.jpg" alt="" width="100%"></center>
+			  <div style="text-align:center"><img src="images/back_staff.jpg" alt="" width="100%"></div>
 		    </div>
 		    </div>
           </div>

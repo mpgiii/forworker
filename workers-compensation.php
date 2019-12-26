@@ -29,7 +29,7 @@
               <img src="images/practice-1.jpg" alt="" class="img-fluid">
             </p>-->
 			<p>The attorneys of Sprenkle, Georgariou & Dilles, LLP are experienced with and skilled at helping injured workers obtain the workers' compensation benefits which they are legally owed.</p>
-            <h4 class="mb-3">Depending on your case, benefits may include:</h2>
+            <h4 class="mb-3">Depending on your case, benefits may include:</h4>
 			<ul>
 			  <li>Medical treatment with a qualified doctor</li>
 			  <li>Medical supplies and assistance</li>
@@ -38,10 +38,10 @@
 			  <li>Enforcement of Awards / Penalties</li>
 			  <li>Death benefits for dependents</li>
 			</ul>
-			<h4 class="mb-3">Do You Have a Workers' Compensation Case?</h2>
+			<h4 class="mb-3">Do You Have a Workers' Compensation Case?</h4>
             <p>If you were injured on the job, or have developed a condition from work, you may be entitled to workers' compensation benefits. The benefits you are entitled to usually depend on the impact the injury has on you physically and financially.</p>
             <p>Far too often, disputes arise over what benefits are owed to you. If you have questions about the benefits to which you may be entitled, please contact us.</p>
-            <h4 class="mb-3">Sprenkle, Georgariou & Dilles, LLP has successfully litigated cases involving:</h2>
+            <h4 class="mb-3">Sprenkle, Georgariou & Dilles, LLP has successfully litigated cases involving:</h4>
 			<ul>
 			  <li>Back injuries, including fractures, back sprains, strains, and herniated discs</li>
 			  <li>Head, brain, and neck injuries, including concussions and headaches</li>
