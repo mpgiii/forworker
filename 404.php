@@ -1,4 +1,12 @@
-<?php include 'header.html';?>
+<?php
+    ob_start();
+    include("header.html");
+    $buffer=ob_get_contents();
+    ob_end_clean();
+
+    $buffer=str_replace("%TITLE%","404 Error",$buffer);
+    echo $buffer;
+?>
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>

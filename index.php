@@ -1,4 +1,12 @@
-<?php include 'indexheader.html';?>
+<?php
+    ob_start();
+    include("indexheader.html");
+    $buffer=ob_get_contents();
+    ob_end_clean();
+
+    $buffer=str_replace("%TITLE%","Sprenkle, Georgariou & Dilles, LLP.",$buffer);
+    echo $buffer;
+?>
 
     
     <div class="hero-wrap js-fullheight" style="background-image: url('images/staff.jpg');" data-stellar-background-ratio="0.5">
