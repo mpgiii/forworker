@@ -12,13 +12,10 @@ RewriteCond %{HTTP_HOST} ^www.sprenklegeorgariou.com [NC]
 RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
 
 #Redirect 404s
-ErrorDocument 404 http://forworker.com/404.html
+ErrorDocument 404 /404.html
 
-#Disallow access from non-site folders
-RedirectMatch 403 ^/css/*
-RedirectMatch 403 ^/fonts/*
-RedirectMatch 403 ^/js/*
-RedirectMatch 403 ^/scss/*
+#Redirect 403s (access denied)
+ErrorDocument 403 /access-denied.html
 
 #Redirect old pages to the new pages
 Redirect 301 /attorney.html /team.html
@@ -99,3 +96,8 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule 404.html 404.php [NC]
+
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule access-denied.html access-denied.php [NC]
