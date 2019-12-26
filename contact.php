@@ -43,30 +43,30 @@
         </div>
         <div class="row block-9">
           <div class="col-lg-8 order-md-last d-flex">
-            <form action="mail.php" method ="POST" class="bg-light p-5 contact-form">
+            <form action="mail.php" method ="POST" title="Contact Form" class="bg-light p-5 contact-form">
               <div class="form-group">
-                <input type="text" class="form-control" name="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="address" placeholder="Address">
+                <input type="text" class="form-control" name="name" title="Name" placeholder="Name">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="citystate" placeholder="City/State">
-              </div>
-			  <div class="form-group">
-                <input type="text" class="form-control" name="phone" placeholder="Phone number">
-              </div>
-			  <div class="form-group">
-                <input type="text" class="form-control" name="email" placeholder="Email">
-              </div>
-			  <div class="form-group">
-                <input type="text" class="form-control" name="employer" placeholder="Name of Employer at time of injury">
-              </div>
-			  <div class="form-group">
-                <input type="text" class="form-control" name="doi" placeholder="Date of injury">
+                <input type="text" class="form-control" name="address" title="Address" placeholder="Address">
               </div>
               <div class="form-group">
-                <textarea id="injury" cols="30" rows="7" class="form-control" name="injury" placeholder="Describe injury/conidition"></textarea>
+                <input type="text" class="form-control" name="citystate" title="City and State" placeholder="City/State">
+              </div>
+			  <div class="form-group">
+                <input type="text" class="form-control" name="phone" title="Phone Number" placeholder="Phone number">
+              </div>
+			  <div class="form-group">
+                <input type="text" class="form-control" name="email" title="Email" placeholder="Email">
+              </div>
+			  <div class="form-group">
+                <input type="text" class="form-control" name="employer" title="Name of Employer at time of injury" placeholder="Name of Employer at time of injury">
+              </div>
+			  <div class="form-group">
+                <input type="text" class="form-control" name="doi" title="Date of injury" placeholder="Date of injury">
+              </div>
+              <div class="form-group">
+                <textarea id="injury" cols="30" rows="7" class="form-control" name="injury" title="Describe injury or condition" placeholder="Describe injury/conidition"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
