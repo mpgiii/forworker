@@ -260,16 +260,17 @@
         	</div>
     	</div>
 		<div class="container-fluid">
-    		<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><br>Our Team<br></h2>
+          <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <h2 class="mb-4"><br>Our Team<br></h2>
           
-		  <div class="image mr-3 align-self-center">
-		    <br>
-			<center><img src="images/back_staff.jpg" alt="" width="100%"></center>
-		  </div>
-		  </div>
-        </div>
+		    <div class="image mr-3 align-self-center">
+		      <br>
+			  <center><img src="images/back_staff.jpg" alt="" width="100%"></center>
+		    </div>
+		    </div>
+          </div>
+		</div>
     </section>
 
 
