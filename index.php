@@ -72,72 +72,38 @@ echo $buffer;
         </div>
     </section>
 
-    <!-- fun graphic we could use later    <section class="ftco-counter" id="section-counter">
-            <div class="container-fluid">
-                <div class="row d-flex">
-                    <div class="col-md-6 d-flex">
-                        <div class="img d-flex align-self-stretch align-items-center justify-content-center" style="background-image:url(images/mpg.jpg);">
-                        </div>
+    <section class="ftco-counter" id="section-counter">
+        <div class="container-fluid">
+            <div class="row d-flex">
+                <div class="col-md-6 d-flex">
+                    <div class="img d-flex align-self-stretch align-items-center justify-content-center"
+                         style="background-image:url(images/legal-stock.jpg);">
                     </div>
-                    <div class="col-md-6 px-5 py-5">
-                        <div class="row justify-content-start pt-3 pb-3">
-                      <div class="col-md-12 heading-section ftco-animate">
-                          <span class="subheading">Fun Facts</span>
-                        <h2 class="mb-4">Sprenkle, Georgariou & Dilles, LLP.</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                      </div>
-                    </div>
-                        <div class="row">
-                      <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18 text-center py-4 bg-light mb-4">
-                          <div class="text">
-                              <div class="icon d-flex justify-content-center align-items-center">
-                                  <span class="flaticon-lawyer"></span>
-                              </div>
-                            <strong class="number" data-number="18">0</strong>
-                            <span>Staff Members</span>
-                          </div>
+                </div>
+                <div class="col-md-6 px-5 py-5">
+                    <div class="row justify-content-start pt-3 pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h2 class="mb-4">Firm Overview</h2>
+                            <p>The law firm of Sprenkle, Georgariou & Dilles, LLP specializes in the representation of
+                                injured workers before the Workers' Compensation Appeals Board.<br>
+                                Workers' compensation law is one of the most complicated areas of California law.
+                                Partners Michael P. Georgariou II and Nicholas J. Dilles have the reputations for
+                                quality trial skills and in-depth knowledge of California workers' compensation laws. We
+                                also provide legal services related to Social Security disability claims.<br>
+                                Most of our staff is fluently bilingual (Spanish-English).<br></p>
+                            <h5 class="mb-4">Why Choose Us?</h5>
+                            <p>Our primary concern is helping injured workers obtain quality medical care and the proper
+                                benefits. We have provided skilled and aggressive representation for thousands of
+                                injured workers, securing the quality medical care and financial benefits to which they
+                                have been entitled. As a result, we have been fortunate to have received most of our new
+                                clients by referrals from former and current satisfied clients. We can help you too!</p>
+
                         </div>
-                      </div>
-                      <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18 text-center py-4 bg-light mb-4">
-                          <div class="text">
-                              <div class="icon d-flex justify-content-center align-items-center">
-                                  <span class="flaticon-handshake"></span>
-                              </div>
-                            <span>Over
-                            <strong class="number" data-number="500">Over 0</strong></span>
-                            <span>Trusted Clients</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18 text-center py-4 bg-light mb-4">
-                          <div class="text">
-                              <div class="icon d-flex justify-content-center align-items-center">
-                                  <span class="ion-ios-checkbox-outline"></span>
-                              </div>
-                            <strong class="number" data-number="1500">0</strong>
-                            <span>Successful Cases</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18 text-center py-4 bg-light mb-4">
-                          <div class="text">
-                              <div class="icon d-flex justify-content-center align-items-center">
-                                  <span class="flaticon-medal"></span>
-                              </div>
-                            <strong class="number" data-number="100">0</strong>
-                            <span>Honors &amp; Awards</span>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </section> -->
+        </div>
+    </section>
 
     <section class="ftco-section bg-light">
         <div class="container">
@@ -228,7 +194,7 @@ echo $buffer;
         <div class="container-fluid">
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                    <h2 class="mb-4">Our Legal Attorneys</h2>
+                    <h2 class="mb-4">Our Attorneys</h2>
                 </div>
             </div>
             <div class="row">
