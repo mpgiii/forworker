@@ -6,9 +6,10 @@ RewriteBase /
 
 #DirectoryIndex index.php index.html
 
-#Move all links from sprenklegeorgariou.com to forworker.com
+#Move all links from sprenklegeorgariou.com and www.forworker.com to forworker.com
 RewriteCond %{HTTP_HOST} ^sprenklegeorgariou.com [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.sprenklegeorgariou.com [NC]
+RewriteCond %{HTTP_HOST} ^www.forworker.com [NC]
 RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
 
 #Redirect 404s
