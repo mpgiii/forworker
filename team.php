@@ -31,111 +31,116 @@ echo $buffer;
                     <h2 class="mb-4">Our Attorneys</h2>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="block-2 ftco-animate">
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/3.jpg);">
-                            <div class="box">
-                                <h2>Stephen D. Sprenkle</h2>
-                                <p>Retired</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in Workers’
-                                    Compensation Law by the State Bar of California Board of Legal Specialization.<br>
-                                    <a href="stephen.html" class="nav-link">Read more here.</a></p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/3.jpg" alt="">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block-2 ftco-animate">
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/3.jpg);">
+                                <div class="box">
+                                    <h2>Stephen D. Sprenkle</h2>
+                                    <p>Retired</p>
                                 </div>
-                                <div class="name align-self-center">Stephen D. Sprenkle <span
-                                            class="position">Retired</span></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="block-2 ftco-animate">
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/mpg_square.jpg);">
-                            <div class="box">
-                                <h2>Michael P. Georgariou II</h2>
-                                <p>Partner</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the State
-                                    Bar of California Board of Legal Specialization, and is bilingual (English-Spanish).<br>
-                                    <a href="michael.html" class="nav-link">Read more here.</a></p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/mpg_square.jpg" alt="">
-                                </div>
-                                <div class="name align-self-center">Michael P. Georgariou II<span class="position">Partner</span>
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in
+                                        Workers’
+                                        Compensation Law by the State Bar of California Board of Legal
+                                        Specialization.<br>
+                                        <a href="stephen.html" class="nav-link">Read more here.</a></p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/3.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Stephen D. Sprenkle <span
+                                                class="position">Retired</span></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="block-2 ftco-animate">
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/njd_square.jpg);">
-                            <div class="box">
-                                <h2>Nicholas J. Dilles</h2>
-                                <p>Partner</p>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>After graduating from law school, Mr. Dilles provided legal aid services at
-                                    California Rural Legal Assistance in Watsonville, California before joining this law
-                                    firm.<br>
-                                    <a href="nicholas.html" class="nav-link">Read more here.</a></p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/njd_square.jpg" alt="">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block-2 ftco-animate">
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/mpg_square.jpg);">
+                                <div class="box">
+                                    <h2>Michael P. Georgariou II</h2>
+                                    <p>Partner</p>
                                 </div>
-                                <div class="name align-self-center">Nicholas J. Dilles <span
-                                            class="position">Partner</span></div>
+                            </div>
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the
+                                        State
+                                        Bar of California Board of Legal Specialization, and is bilingual
+                                        (English-Spanish).<br>
+                                        <a href="michael.html" class="nav-link">Read more here.</a></p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/mpg_square.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Michael P. Georgariou II<span class="position">Partner</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="block-2 ftco-animate">
-                    <div class="flipper">
-                        <div class="front" style="background-image: url(images/sjl_square.jpg);">
-                            <div class="box">
-                                <h2>Samuel J. Lawrence</h2>
-                                <p>Associate Attorney</p>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block-2 ftco-animate">
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/njd_square.jpg);">
+                                <div class="box">
+                                    <h2>Nicholas J. Dilles</h2>
+                                    <p>Partner</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>After graduating from law school, Mr. Dilles provided legal aid services at
+                                        California Rural Legal Assistance in Watsonville, California before joining this
+                                        law
+                                        firm.<br>
+                                        <a href="nicholas.html" class="nav-link">Read more here.</a></p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/njd_square.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Nicholas J. Dilles <span
+                                                class="position">Partner</span></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <blockquote>
-                                <p>Mr. Lawrence has lived in the Monterey area since 2015, and works at Sprenkle,
-                                    Georgariou & Dilles, LLP. as an associate attorney.<br>
-                                    <a href="samuel.html" class="nav-link">Read more here.</a></p>
-                            </blockquote>
-                            <div class="author d-flex">
-                                <div class="image mr-3 align-self-center">
-                                    <img src="images/sjl_square.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="block-2 ftco-animate">
+                        <div class="flipper">
+                            <div class="front" style="background-image: url(images/sjl_square.jpg);">
+                                <div class="box">
+                                    <h2>Samuel J. Lawrence</h2>
+                                    <p>Associate Attorney</p>
                                 </div>
-                                <div class="name align-self-center">Samuel J. Lawrence <span class="position">Associate Attorney</span>
+                            </div>
+                            <div class="back">
+                                <!-- back content -->
+                                <blockquote>
+                                    <p>Mr. Lawrence has lived in the Monterey area since 2015, and works at Sprenkle,
+                                        Georgariou & Dilles, LLP. as an associate attorney.<br>
+                                        <a href="samuel.html" class="nav-link">Read more here.</a></p>
+                                </blockquote>
+                                <div class="author d-flex">
+                                    <div class="image mr-3 align-self-center">
+                                        <img src="images/sjl_square.jpg" alt="">
+                                    </div>
+                                    <div class="name align-self-center">Samuel J. Lawrence <span class="position">Associate Attorney</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
