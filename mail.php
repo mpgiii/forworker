@@ -107,7 +107,7 @@ echo $buffer;
                     <p><span>Phone:</span> <a href="tel:8314498011">(831) 449-8011</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>Email:</span> <a href="mailto:info@forworker.com">info@forkworker.com</a></p>
+                    <p><span>Email:</span> <a href="mailto:info@forworker.com">info@forworker.com</a></p>
                 </div>
                 <div class="col-md-3">
                     <p><span>Website</span> <a href="#">forworker.com</a></p>
