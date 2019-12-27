@@ -124,54 +124,54 @@ echo $buffer;
                         <?php endif; ?>
                         <div class="form-group">
                             <?php if (isset($name_error)) : ?>
-                                <p><font color="red">Invalid name.</font></p>
+                                <p style="color:#FF0000";>Invalid name.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="name" placeholder="Name">
                         </div>
                         <div class="form-group">
                             <?php if (isset($address_error)) : ?>
-                                <p><font color="red">Invalid address.</font></p>
+                                <p style="color:#FF0000";>Invalid address.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="address" placeholder="Address">
                         </div>
                         <div class="form-group">
                             <?php if (isset($citystate_error)) : ?>
-                                <p><font color="red">Invalid city/state.</font></p>
+                                <p style="color:#FF0000";>Invalid city/state.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="citystate" placeholder="City/State">
                         </div>
                         <div class="form-group">
                             <?php if (isset($phone_error)) : ?>
-                                <p><font color="red">Invalid phone number.</font></p>
+                                <p style="color:#FF0000";>Invalid phone number.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="phone" placeholder="Phone number">
                         </div>
                         <div class="form-group">
                             <?php if (isset($email_error)) : ?>
-                                <p><font color="red">Invalid email address.</font></p>
+                                <p style="color:#FF0000";>Invalid email address.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <?php if (isset($employer_error)) : ?>
-                                <p><font color="red">Invalid employer name. Please do not use these
-                                        characters: <?php echo $rest; ?></font></p>
+                                <p style="color:#FF0000";>Invalid employer name. Please do not use these
+                                        characters: <?php echo $rest; ?></p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="employer"
                                    placeholder="Name of Employer at time of injury">
                         </div>
                         <div class="form-group">
                             <?php if (isset($doi_error)) : ?>
-                                <p><font color="red">Invalid date of injury.</font></p>
+                                <p style="color:#FF0000";>Invalid date of injury.</p>
                             <?php endif; ?>
                             <input type="text" class="form-control" name="doi" placeholder="Date of injury">
                         </div>
                         <div class="form-group">
                             <?php if (isset($injury_error)) : ?>
-                                <p><font color="red">Invalid message.</font></p>
+                                <p style="color:#FF0000";>Invalid message.</p>
                             <?php endif; ?>
                             <textarea id="" cols="30" rows="7" class="form-control" name="injury"
-                                      placeholder="Describe injury/conidition"></textarea>
+                                      placeholder="Describe injury/condition"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
