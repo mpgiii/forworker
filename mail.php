@@ -55,6 +55,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Contact Us", $buffer);
+$buffer = str_replace("%DESC%", "Useful forms to print out, as well as multiple ways to contact Sprenkle, Georgariou and Dilles, LLP. in order to receive a free consultation regarding a case.", $buffer);
 echo $buffer;
 ?>
 <?php if (!$errorset) : ?>

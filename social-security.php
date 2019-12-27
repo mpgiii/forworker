@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Social Security Disability", $buffer);
+$buffer = str_replace("%DESC%", "The attorneys of Sprenkle, Georgariou & Dilles, LLP can assist you with your claim for Social Security Disability Insurance Benefits (SSDI) and Supplemental Security Income Benefits (SSI).", $buffer);
+
 echo $buffer;
 ?>
 

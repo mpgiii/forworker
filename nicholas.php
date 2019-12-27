@@ -5,6 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Nicholas J. Dilles", $buffer);
+$buffer = str_replace("%DESC%", "Nicholas Dilles specializes in workers' compensation, social security disability, and industrial disability retirement. He is a partner at Sprenkle, Georgariou and Dilles, LLP.", $buffer);
 echo $buffer;
 ?>
 

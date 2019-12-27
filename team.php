@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Our Team", $buffer);
+$buffer = str_replace("%DESC%", "The employees at Sprenkle, Georgariou and Dilles, LLP. includes multiple attorneys, legal assistants, and back staff, creating an environment best suited to helping workers receive the benefits they deserve.", $buffer);
+
 echo $buffer;
 ?>
 

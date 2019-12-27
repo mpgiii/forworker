@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Stephen D. Sprenkle", $buffer);
+$buffer = str_replace("%DESC%", "Stephen Sprenkle was a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and was previously a partner at Sprenkle, Georgariou and Dilles, LLP. before he retired.", $buffer);
+
 echo $buffer;
 ?>
 

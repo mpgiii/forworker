@@ -5,6 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Michael P. Georgariou II", $buffer);
+$buffer = str_replace("%DESC%", "Michael Georgariou is a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and is a partner at Sprenkle, Georgariou and Dilles, LLP.", $buffer);
 echo $buffer;
 ?>
 

@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Samuel J. Lawrence", $buffer);
+$buffer = str_replace("%DESC%", "Samuel Lawrence is an associate attorney at Sprenkle, Georgariou and Dilles, LLP. He handles cases involving workers' compensation.", $buffer);
+
 echo $buffer;
 ?>
 

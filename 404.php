@@ -1,11 +1,13 @@
 <?php
-    ob_start();
-    include("header.html");
-    $buffer=ob_get_contents();
-    ob_end_clean();
+ob_start();
+include("header.html");
+$buffer = ob_get_contents();
+ob_end_clean();
 
-    $buffer=str_replace("%TITLE%","404 Error",$buffer);
-    echo $buffer;
+$buffer = str_replace("%TITLE%", "404 Error", $buffer);
+$buffer = str_replace("%DESC%", "You shouldn't have reached this page!", $buffer);
+
+echo $buffer;
 ?>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');"
@@ -23,4 +25,4 @@
 </section>
 
 
-<?php include 'footer.html';?>
+<?php include 'footer.html'; ?>

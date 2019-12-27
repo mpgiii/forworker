@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Practice Areas", $buffer);
+$buffer = str_replace("%DESC%", "Sprenkle, Georgariou and Dilles, LLP. offers services for cases involving workers' compensation, social security disability, and industrial disability retirement.", $buffer);
+
 echo $buffer;
 ?>
 

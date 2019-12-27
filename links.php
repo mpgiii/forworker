@@ -5,6 +5,8 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Links", $buffer);
+$buffer = str_replace("%DESC%", "Links to some resources which may be helpful to look over before or during the pursual of an injured worker case, including links for State of California pages, Workers' Rights Organizations pages, and Insurance Resources pages.", $buffer);
+
 echo $buffer;
 ?>
 
