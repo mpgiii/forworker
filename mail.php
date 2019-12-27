@@ -25,8 +25,7 @@ if (!preg_match("/^[0-9._() +-]+$/", $phone)) {
 if (!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/", $email)) {
     $email_error = 'Invalid email';
 }
-if (!preg_match("/^[A-Za-z0-9 .,_!@#()&%+-]+$/", $employer)) {
-    $rest = preg_replace("/^[A-Za-z0-9 .,_!@#()&%+-]+$/", '-', $employer);
+if (!preg_match("/^[A-Za-z0-9 .,_!@#()&%-+;]+$/", $employer)) {
     $employer_error = 'Invalid employer';
 }
 if (!preg_match("/^[A-Za-z0-9 .'-\/]+$/", $doi)) {
