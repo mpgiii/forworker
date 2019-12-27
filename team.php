@@ -52,7 +52,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/3.jpg" alt="">
+                                        <img src="images/3.jpg" alt="Stephen Sprenkle">
                                     </div>
                                     <div class="name align-self-center">Stephen D. Sprenkle <span
                                                 class="position">Retired</span></div>
@@ -81,7 +81,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/mpg_square.jpg" alt="">
+                                        <img src="images/mpg_square.jpg" alt="Michael Georgariou">
                                     </div>
                                     <div class="name align-self-center">Michael P. Georgariou II<span class="position">Partner</span>
                                     </div>
@@ -110,7 +110,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/njd_square.jpg" alt="">
+                                        <img src="images/njd_square.jpg" alt="Nicholas Dilles">
                                     </div>
                                     <div class="name align-self-center">Nicholas J. Dilles <span
                                                 class="position">Partner</span></div>
@@ -137,7 +137,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/sjl_square.jpg" alt="">
+                                        <img src="images/sjl_square.jpg" alt="Samuel Lawrence">
                                     </div>
                                     <div class="name align-self-center">Samuel J. Lawrence <span class="position">Associate Attorney</span>
                                     </div>
@@ -169,7 +169,7 @@ echo $buffer;
                             <div class="back">
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/erg_square.jpg" alt="">
+                                        <img src="images/erg_square.jpg" alt="Evelia Gutierrez">
                                     </div>
                                     <div class="name align-self-center">Evelia Gutierrez <span class="position">Office Manager</span>
                                     </div>
@@ -190,7 +190,7 @@ echo $buffer;
                             <div class="back">
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/edw_square.jpg" alt="">
+                                        <img src="images/edw_square.jpg" alt="Edna Williams">
                                     </div>
                                     <div class="name align-self-center">Edna Williams<span class="position">Legal Assistant to Michael Georgariou II</span>
                                     </div>
@@ -211,7 +211,7 @@ echo $buffer;
                             <div class="back">
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/srv_square.jpg" alt="">
+                                        <img src="images/srv_square.jpg" alt="Sandra Acosta">
                                     </div>
                                     <div class="name align-self-center">Sandra Acosta <span class="position">Legal Assistant to Nicholas Dilles</span>
                                     </div>
@@ -232,7 +232,7 @@ echo $buffer;
                             <div class="back">
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/acl_square.jpg" alt="">
+                                        <img src="images/acl_square.jpg" alt="Arlett Campos">
                                     </div>
                                     <div class="name align-self-center">Arlett Campos <span class="position">Legal Assistant to Samuel Lawrence</span>
                                     </div>
@@ -253,7 +253,7 @@ echo $buffer;
                             <div class="back">
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/lbg_square.jpg" alt="">
+                                        <img src="images/lbg_square.jpg" alt="Liz Gonzalez">
                                     </div>
                                     <div class="name align-self-center">Liz Gonzalez <span class="position">New Client Coordinator</span>
                                     </div>
