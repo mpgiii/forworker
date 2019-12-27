@@ -217,7 +217,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/3.jpg" alt="Stephen Sprenkle">
+                                        <img src="images/3_tiny.jpg" alt="Stephen Sprenkle">
                                     </div>
                                     <div class="name align-self-center">Stephen D. Sprenkle <span class="position">Retired</span>
                                     </div>
@@ -245,7 +245,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/mpg_square.jpg" alt="Michael Georgariou">
+                                        <img src="images/mpg_tiny.jpg" alt="Michael Georgariou">
                                     </div>
                                     <div class="name align-self-center">Michael P. Georgariou II<span class="position">Partner</span>
                                     </div>
@@ -273,7 +273,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/njd_square.jpg" alt="Nicholas Dilles">
+                                        <img src="images/njd_tiny.jpg" alt="Nicholas Dilles">
                                     </div>
                                     <div class="name align-self-center">Nicholas J. Dilles <span class="position">Partner</span>
                                     </div>
@@ -300,7 +300,7 @@ echo $buffer;
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="image mr-3 align-self-center">
-                                        <img src="images/sjl_square.jpg" alt="Samuel Lawrence">
+                                        <img src="images/sjl_tiny.jpg" alt="Samuel Lawrence">
                                     </div>
                                     <div class="name align-self-center">Samuel J. Lawrence <span class="position">Associate Attorney</span>
                                     </div>
