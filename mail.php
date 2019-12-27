@@ -124,54 +124,84 @@ echo $buffer;
                         <?php endif; ?>
                         <div class="form-group">
                             <?php if (isset($name_error)) : ?>
-                                <p style="color:#FF0000";>Invalid name.</p>
+                                <p style="color:#FF0000" ;>Invalid name: "<?php echo $name ?>"</p>
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="name" placeholder="Name"
+                                       value="<?php echo $name ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="name" placeholder="Name">
                         </div>
                         <div class="form-group">
                             <?php if (isset($address_error)) : ?>
-                                <p style="color:#FF0000";>Invalid address.</p>
+                                <p style="color:#FF0000" ;>Invalid address: "<?php echo $address ?>
+                                    "</p>
+                                <input type="text" class="form-control" name="address" placeholder="Address">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="address" placeholder="Address"
+                                       value="<?php echo $address ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="address" placeholder="Address">
                         </div>
                         <div class="form-group">
                             <?php if (isset($citystate_error)) : ?>
-                                <p style="color:#FF0000";>Invalid city/state.</p>
+                                <p style="color:#FF0000" ;>Invalid city/state:
+                                    "<?php echo $citystate ?>"</p>
+                                <input type="text" class="form-control" name="citystate" placeholder="City/State">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="citystate" placeholder="City/State"
+                                       value="<?php echo $citystate ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="citystate" placeholder="City/State">
+
                         </div>
                         <div class="form-group">
                             <?php if (isset($phone_error)) : ?>
-                                <p style="color:#FF0000";>Invalid phone number.</p>
+                                <p style="color:#FF0000" ;>Invalid phone number: "<?php echo $phone ?>
+                                    "</p>
+                                <input type="text" class="form-control" name="phone" placeholder="Phone number">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="phone" placeholder="Phone number"
+                                       value="<?php echo $phone ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="phone" placeholder="Phone number">
                         </div>
                         <div class="form-group">
                             <?php if (isset($email_error)) : ?>
-                                <p style="color:#FF0000";>Invalid email address.</p>
+                                <p style="color:#FF0000" ;>Invalid email address:
+                                    "<?php echo $email ?>"</p>
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="email" placeholder="Email"
+                                       value="<?php echo $email ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
                             <?php if (isset($employer_error)) : ?>
-                                <p style="color:#FF0000";>Invalid employer name. Please do not use these
-                                        characters: <?php echo $rest; ?></p>
+                                <p style="color:#FF0000" ;>Invalid employer name:
+                                    "<?php echo $employer ?>"</p>
+                                <input type="text" class="form-control" name="employer"
+                                       placeholder="Name of Employer at time of injury">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="employer"
+                                       placeholder="Name of Employer at time of injury" value="<?php echo $employer ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="employer"
-                                   placeholder="Name of Employer at time of injury">
                         </div>
                         <div class="form-group">
                             <?php if (isset($doi_error)) : ?>
-                                <p style="color:#FF0000";>Invalid date of injury.</p>
+                                <p style="color:#FF0000" ;>Invalid date of injury: "<?php echo htmlspecialchars($doi) ?>
+                                    "</p>
+                                <input type="text" class="form-control" name="doi" placeholder="Date of injury">
+                            <?php else : ?>
+                                <input type="text" class="form-control" name="doi" placeholder="Date of injury"
+                                       value="<?php echo $doi ?>">
                             <?php endif; ?>
-                            <input type="text" class="form-control" name="doi" placeholder="Date of injury">
                         </div>
                         <div class="form-group">
                             <?php if (isset($injury_error)) : ?>
-                                <p style="color:#FF0000";>Invalid message.</p>
+                                <p style="color:#FF0000" ;>Invalid message.</p>
+                                <textarea id="" cols="30" rows="7" class="form-control" name="injury"
+                                          placeholder="Describe injury/condition"></textarea>
+                            <?php else : ?>
+                                <textarea id="" cols="30" rows="7" class="form-control" name="injury"
+                                          placeholder="Describe injury/condition"><?php echo $injury ?></textarea>
                             <?php endif; ?>
-                            <textarea id="" cols="30" rows="7" class="form-control" name="injury"
-                                      placeholder="Describe injury/condition"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
