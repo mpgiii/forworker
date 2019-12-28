@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /old_website/
+
+Sitemap: https://forworker.com/sitemap.xml
