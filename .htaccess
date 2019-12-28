@@ -1,16 +1,18 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-#RewriteBase /~spren942/
 RewriteBase /
 
 #DirectoryIndex index.php index.html
 
-#Move all links from sprenklegeorgariou.com and www.forworker.com to forworker.com
+#Move all links from sprenklegeorgariou.com forworker.com
 RewriteCond %{HTTP_HOST} ^sprenklegeorgariou.com [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.sprenklegeorgariou.com [NC]
-RewriteCond %{HTTP_HOST} ^www.forworker.com [NC]
 RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
+
+#Move www to non-www
+RewriteCond %{HTTP_HOST} ^www.forworker.com [NC]
+RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301]
 
 #Redirect 404s
 ErrorDocument 404 /404.html
@@ -30,8 +32,6 @@ Redirect 301 /jennifer-e-zander.html /team.html
 Redirect 301 /link.html /links.html
 Redirect 301 /sara-j-tortorelli.html /team.html
 Redirect 301 /russell-d-jacobson.html /team.html
-
-#Hide php files as html
 
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
