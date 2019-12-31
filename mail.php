@@ -60,7 +60,7 @@ else {
 		$mail->Host = "localhost";
 		$mail->Port = 25;
 
-		$mail->SMTPAuth = true;
+		$mail->SMTPAuth = false; //set to true to set up username and password.
 		$mail->Username = "";
 		$mail->Password = "";
 
