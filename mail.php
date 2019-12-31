@@ -141,10 +141,10 @@ echo $buffer;
                 <div class="col-lg-8 order-md-last d-flex">
                     <form action="contact.html" method="POST" class="bg-light p-5 contact-form">
                         <?php if ($mailsent) : ?>
-                            <p>There were one or more errors with your submission:</p>
+                            <p style="color:#FF0000" ;>There were one or more errors with your submission:</p>
 						<?php elseif ($firsttime) : ?>
                         <?php else : ?>
-                            <p>There was an error sending your message. Please try again later.</p>
+                            <p style="color:#FF0000" ;>There was an error sending your message. Please try again later.</p>
                         <?php endif; ?>
                         <div class="form-group">
                             <?php if (isset($name_error)) : ?>
