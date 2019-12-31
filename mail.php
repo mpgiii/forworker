@@ -36,7 +36,7 @@ if (strlen($injury) === 0) {
 }
 
 if (!isset($name_error) && !isset($address_error) && !isset($citystate_error) && !isset($phone_error) && !isset($email_error) && !isset($employer_error) && !isset($doi_error) && !isset($injury_error)) {
-    $to = 'georgariou3@gmail.com'; // edit here
+    $to = 'liz@forworker.com'; // edit here
     $subject = "Contact Form From: $name";
     $body = " Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
     if (!@mail($to, $subject, $body)) {
