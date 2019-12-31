@@ -60,6 +60,10 @@ else {
 		$mail->Host = "localhost";
 		$mail->Port = 25;
 
+		$mail->SMTPAuth = true;
+		$mail->Username = "";
+		$mail->Password = "";
+
 		if (!$mail->send()) {
 			$errorset = True;
 			$mailsent = False;
