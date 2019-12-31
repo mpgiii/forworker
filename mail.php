@@ -1,50 +1,60 @@
 <?php
+$firsttime = False;
 $errorset = False;
 $mailsent = True;
 
-$name = htmlspecialchars(stripslashes(trim($_POST['name'])));
-$address = htmlspecialchars(stripslashes(trim($_POST['address'])));
-$citystate = htmlspecialchars(stripslashes(trim($_POST['citystate'])));
-$phone = htmlspecialchars(stripslashes(trim($_POST['phone'])));
-$email = htmlspecialchars(stripslashes(trim($_POST['email'])));
-$employer = htmlspecialchars(stripslashes(trim($_POST['employer'])));
-$doi = htmlspecialchars(stripslashes(trim($_POST['doi'])));
-$injury = htmlspecialchars(stripslashes(trim($_POST['injury'])));
-if (!preg_match("/^[A-Za-z .'-]+$/", $name)) {
-    $name_error = 'Invalid name';
-}
-if (!preg_match("/^[A-Za-z0-9 ._%+-]+$/", $address)) {
-    $address_error = 'Invalid address';
-}
-if (!preg_match("/^[A-Za-z ,.'-]+$/", $citystate)) {
-    $citystate_error = 'Invalid City/State';
-}
-if (!preg_match("/^[0-9._() +-]+$/", $phone)) {
-    $phone_error = 'Invalid phone number';
-}
-if (!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/", $email)) {
-    $email_error = 'Invalid email';
-}
-if (!preg_match("/^[A-Za-z0-9 .,_!@#()&%-+;]+$/", $employer)) {
-    $employer_error = 'Invalid employer';
-}
-if (!preg_match("/^[A-Za-z0-9 .'-\/]+$/", $doi)) {
-    $doi_error = 'Invalid date of injury';
-}
-if (strlen($injury) === 0) {
-    $injury_error = 'Your message should not be empty';
+if(!isset($_POST['name'])){
+	$errorset = True;
+	$firsttime = True;
+	$mailsent = False;
 }
 
-if (!isset($name_error) && !isset($address_error) && !isset($citystate_error) && !isset($phone_error) && !isset($email_error) && !isset($employer_error) && !isset($doi_error) && !isset($injury_error)) {
-    $to = 'liz@forworker.com'; // edit here
-    $subject = "Contact Form From: $name";
-    $body = " Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
-    if (!@mail($to, $subject, $body)) {
-        $errorset = True;
-        $mailsent = False;
-    }
-} else {
-    $errorset = True;
+else {
+
+	$name = htmlspecialchars(stripslashes(trim($_POST['name'])));
+	$address = htmlspecialchars(stripslashes(trim($_POST['address'])));
+	$citystate = htmlspecialchars(stripslashes(trim($_POST['citystate'])));
+	$phone = htmlspecialchars(stripslashes(trim($_POST['phone'])));
+	$email = htmlspecialchars(stripslashes(trim($_POST['email'])));
+	$employer = htmlspecialchars(stripslashes(trim($_POST['employer'])));
+	$doi = htmlspecialchars(stripslashes(trim($_POST['doi'])));
+	$injury = htmlspecialchars(stripslashes(trim($_POST['injury'])));
+	if (!preg_match("/^[A-Za-z .'-]+$/", $name)) {
+		$name_error = 'Invalid name';
+	}
+	if (!preg_match("/^[A-Za-z0-9 ._%+-]+$/", $address)) {
+		$address_error = 'Invalid address';
+	}
+	if (!preg_match("/^[A-Za-z ,.'-]+$/", $citystate)) {
+		$citystate_error = 'Invalid City/State';
+	}
+	if (!preg_match("/^[0-9._() +-]+$/", $phone)) {
+		$phone_error = 'Invalid phone number';
+	}
+	if (!preg_match("/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}$/", $email)) {
+		$email_error = 'Invalid email';
+	}
+	if (!preg_match("/^[A-Za-z0-9 .,_!@#()&%-+;]+$/", $employer)) {
+		$employer_error = 'Invalid employer';
+	}
+	if (!preg_match("/^[A-Za-z0-9 .'-\/]+$/", $doi)) {
+		$doi_error = 'Invalid date of injury';
+	}
+	if (strlen($injury) === 0) {
+		$injury_error = 'Your message should not be empty';
+	}
+
+	if (!isset($name_error) && !isset($address_error) && !isset($citystate_error) && !isset($phone_error) && !isset($email_error) && !isset($employer_error) && !isset($doi_error) && !isset($injury_error)) {
+		$to = 'liz@forworker.com'; // edit here
+		$subject = "Contact Form From: $name";
+		$body = " Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
+		if (!@mail($to, $subject, $body)) {
+			$errorset = True;
+			$mailsent = False;
+		}
+	} else {
+		$errorset = True;
+	}
 }
 ?>
 
@@ -58,6 +68,7 @@ $buffer = str_replace("%TITLE%", "Contact Us", $buffer);
 $buffer = str_replace("%DESC%", "Useful forms to print out, as well as multiple ways to contact Sprenkle, Georgariou and Dilles, LLP. in order to receive a free consultation regarding a case.", $buffer);
 echo $buffer;
 ?>
+
 <?php if (!$errorset) : ?>
 
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');"
@@ -116,16 +127,19 @@ echo $buffer;
             </div>
             <div class="row block-9">
                 <div class="col-lg-8 order-md-last d-flex">
-                    <form action="mail.php" method="POST" class="bg-light p-5 contact-form">
+                    <form action="contact.html" method="POST" class="bg-light p-5 contact-form">
                         <?php if ($mailsent) : ?>
                             <p>There were one or more errors with your submission:</p>
+						<?php elseif ($firsttime) : ?>
                         <?php else : ?>
                             <p>There was an error sending your message. Please try again later.</p>
                         <?php endif; ?>
                         <div class="form-group">
                             <?php if (isset($name_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid name: "<?php echo $name ?>"</p>
-                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            <?php endif; ?>
+							<?php if ($firsttime) : ?>
+								<input type="text" class="form-control" name="name" placeholder="Name">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="name" placeholder="Name"
                                        value="<?php echo $name ?>">
@@ -135,6 +149,8 @@ echo $buffer;
                             <?php if (isset($address_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid address: "<?php echo $address ?>
                                     "</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="address" placeholder="Address">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="address" placeholder="Address"
@@ -145,6 +161,8 @@ echo $buffer;
                             <?php if (isset($citystate_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid city/state:
                                     "<?php echo $citystate ?>"</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="citystate" placeholder="City/State">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="citystate" placeholder="City/State"
@@ -156,6 +174,8 @@ echo $buffer;
                             <?php if (isset($phone_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid phone number: "<?php echo $phone ?>
                                     "</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="phone" placeholder="Phone number">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="phone" placeholder="Phone number"
@@ -166,6 +186,8 @@ echo $buffer;
                             <?php if (isset($email_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid email address:
                                     "<?php echo $email ?>"</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="email" placeholder="Email">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="email" placeholder="Email"
@@ -176,6 +198,8 @@ echo $buffer;
                             <?php if (isset($employer_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid employer name:
                                     "<?php echo $employer ?>"</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="employer"
                                        placeholder="Name of Employer at time of injury">
                             <?php else : ?>
@@ -187,6 +211,8 @@ echo $buffer;
                             <?php if (isset($doi_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid date of injury: "<?php echo htmlspecialchars($doi) ?>
                                     "</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <input type="text" class="form-control" name="doi" placeholder="Date of injury">
                             <?php else : ?>
                                 <input type="text" class="form-control" name="doi" placeholder="Date of injury"
@@ -196,6 +222,8 @@ echo $buffer;
                         <div class="form-group">
                             <?php if (isset($injury_error)) : ?>
                                 <p style="color:#FF0000" ;>Invalid message.</p>
+							<?php endif; ?>
+							<?php if ($firsttime) : ?>
                                 <textarea id="" cols="30" rows="7" class="form-control" name="injury"
                                           placeholder="Describe injury/condition"></textarea>
                             <?php else : ?>
