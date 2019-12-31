@@ -1,4 +1,7 @@
 <?php
+
+include('class.phpmailer.php');
+
 $firsttime = False;
 $errorset = False;
 $mailsent = True;
@@ -45,10 +48,19 @@ else {
 	}
 
 	if (!isset($name_error) && !isset($address_error) && !isset($citystate_error) && !isset($phone_error) && !isset($email_error) && !isset($employer_error) && !isset($doi_error) && !isset($injury_error)) {
-		$to = 'liz@forworker.com'; // edit here
-		$subject = "Contact Form From: $name";
-		$body = " Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
-		if (!@mail($to, $subject, $body)) {
+		$mail = new PHPMailer;
+		
+		$mail->From = "no-reply@forworker.com";
+		$mail->FromName = "Website Contact Form";
+		
+		$mail->addAddress("georgariou3@gmail.com");
+		$mail->Subject = "Contact Form from: $name";
+		$mail->Body = "Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
+
+		$mail->Host = "localhost";
+		$mail->Port = 25;
+
+		if (!$mail->send()) {
 			$errorset = True;
 			$mailsent = False;
 		}
