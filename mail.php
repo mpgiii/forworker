@@ -134,7 +134,7 @@ echo $buffer;
                     <p><span>Email:</span> <a href="mailto:info@forworker.com">info@forworker.com</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>Website</span> <a href="#">forworker.com</a></p>
+                    <p><span>Website:</span> <a href="http://forworker.com">forworker.com</a></p>
                 </div>
             </div>
             <div class="row block-9">
