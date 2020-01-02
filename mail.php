@@ -53,14 +53,14 @@ else {
 		$mail->From = "no-reply@forworker.com";
 		$mail->FromName = "Website Contact Form";
 		
-		$mail->addAddress("georgariou3@gmail.com");
+		$mail->addAddress("georgariou3@gmail.com"); //replace email with liz's once we get smtp settings
 		$mail->Subject = "Contact Form from: $name";
 		$mail->Body = "Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
 
-		$mail->Host = "localhost";
-		$mail->Port = 25;
+		$mail->Host = "localhost"; //replace with smtp server
+		$mail->Port = 25; //replace with smtp port
 
-		$mail->SMTPAuth = false; //set to true to set up username and password.
+		$mail->SMTPAuth = false; //set to true to set up username and password for the smtp server
 		$mail->Username = "";
 		$mail->Password = "";
 
