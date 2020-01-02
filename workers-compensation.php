@@ -33,8 +33,7 @@ echo $buffer;
                     <!--<p>
                     <img src="images/practice-1.jpg" alt="" class="img-fluid">
                   </p>-->
-                    <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP are experienced with and skilled at helping
-                        injured workers obtain the workers' compensation benefits which they are legally owed.</p>
+                    <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP are experienced with and skilled at helping injured workers obtain the workers' compensation benefits which they are legally owed.</p>
                     <h4 class="mb-3">Depending on your case, benefits may include:</h4>
                     <ul>
                         <li>Medical treatment with a qualified doctor</li>

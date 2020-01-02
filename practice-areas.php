@@ -28,6 +28,11 @@ echo $buffer;
 
     <section class="ftco-section bg-light">
         <div class="container">
+			<div class="row mb-5 pb-3 ftco-animate">
+				<h4 class="mb-4">What We Do</h4>
+				<p>Our law firm specializes in the representation of injured workers before the Workers' Compensation Appeals Baord, especially in cases involving public safety officers. Although this is our speciality, we do offer representation for SSDI and IDR for clients we already represent on their workers' compensation cases.</p>
+				<p>To learn more about the areas of law we represent, click below.</p>
+			</div>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 col-lg-3 text-center">
                     <div class="practice-area bg-white ftco-animate p-4">
@@ -35,8 +40,7 @@ echo $buffer;
                             <span class="flaticon-auction"></span>
                         </div>
                         <h3 class="mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                        <p>Helping injured workers obtain the workers' compensation benefits which they are legally
-                            owed.</p>
+                        <p>Sprenkle, Georgariou &amp; Dilles, LLP. specializes in workers' compensation, helping injured workers obtain the benefits which they are legally owed.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-3 text-center">
@@ -45,8 +49,7 @@ echo $buffer;
                             <span class="flaticon-money"></span>
                         </div>
                         <h3 class="mb-3"><a href="social-security.html">Social Security Disability</a></h3>
-                        <p>Helping workers with their claims for Social Security Disability Insurance Benefits (SSDI)
-                            and Supplemental Security Income Benefits (SSI).</p>
+                        <p>For existing workers' compensation clients, our firm can help with Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI).</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-3 text-center">
@@ -55,8 +58,7 @@ echo $buffer;
                             <span class="flaticon-employee"></span>
                         </div>
                         <h3 class="mb-3"><a href="#">Industrial Disability Retirement</a></h3>
-                        <p>Helping workers with the inability to perform the usual job duties due to a work-related
-                            injury or illness.</p>
+                        <p>For existing workers' compensation clients, our firm can help with Industrial Disability Retirement (IDR).</p>
                     </div>
                 </div>
                 <!-- other icons <div class="col-md-4 col-lg-3 text-center">

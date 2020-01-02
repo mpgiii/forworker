@@ -22,8 +22,8 @@ echo $buffer;
                     </h1>
                     <h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: .2 }"><br>Partners
                         Michael P. Georgariou II and Nicholas J. Dilles have the reputations for quality trial skills
-                        and in-depth knowledge of California workers' compensation laws. We also provide legal services
-                        related to Social Security disability claims.<br></h2>
+                        and in-depth knowledge of California workers' compensation laws. For existing workers' compensation clients, we also provide legal services
+                        related to Social Security disability and industry disability retirement claims.<br></h2>
                     <p><br><br><a href="contact.html" class="btn btn-primary py-3 px-4">Request a Free Consultation</a>
                     </p>
                 </div>
@@ -38,25 +38,23 @@ echo $buffer;
                     <div class="icon"><span class="flaticon-auction"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                        <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP are experienced with and skilled at
+                        <p>Our attorneys are experienced with and skilled at
                             helping injured workers obtain the workers' compensation benefits which they are legally
                             owed.</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
-                    <div class="icon"><span class="flaticon-money"></span></div>
+                    <div class="icon"><span class="flaticon-shield"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3"><a href="social-security.html">Social Security Disability</a></h3>
-                        <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP can assist you with your claim for Social
-                            Security Disability Insurance Benefits (SSDI) and Supplemental Security Income Benefits
-                            (SSI).</p>
+                        <h3 class="heading mb-3"><a href="#">Public Safety Representation</a></h3>
+                        <p>Our law firm has the reputation of quality representation for public safety officers who were injured on the job.</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
                     <div class="icon"><span class="flaticon-lawyer"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="team.html">Our Attorneys</a></h3>
-                        <p>We have the reputations for quality trial skills and in-depth knowledge of California
+                        <p>Our attorneys are known for quality trial skills and in-depth knowledge of California
                             workers' compensation and social security laws.</p>
                     </div>
                 </div>
@@ -105,95 +103,11 @@ echo $buffer;
         </div>
     </section>
 
+
     <section class="ftco-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section ftco-animate">
-
-                    <h2 class="mb-4">Practice Areas</h2>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-3 col-lg-2 text-center">
-                    <div class="practice-area ftco-animate">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-auction"></span>
-                        </div>
-                        <h3><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-2 text-center">
-                    <div class="practice-area ftco-animate">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-money"></span>
-                        </div>
-                        <h3><a href="social-security.html">Social Security Disability</a></h3>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-2 text-center">
-                    <div class="practice-area ftco-animate">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-employee"></span>
-                        </div>
-                        <h3><a href="#">Industrial Disability Retirement</a></h3>
-                    </div>
-                </div>
-                <!-- other icons        	<div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-shield"></span>
-                                    </div>
-                                    <h3><a href="#">Insurance Law</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-handcuffs"></span>
-                                    </div>
-                                    <h3><a href="#">Criminal Law</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-house"></span>
-                                    </div>
-                                    <h3><a href="#">Property Law</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-fire"></span>
-                                    </div>
-                                    <h3><a href="#">Fire Accident</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-medicine"></span>
-                                    </div>
-                                    <h3><a href="#">Drug Offenses</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-lg-2 text-center">
-                                <div class="practice-area ftco-animate">
-                                    <div class="icon d-flex justify-content-center align-items-center">
-                                        <span class="flaticon-handcuffs"></span>
-                                    </div>
-                                    <h3><a href="#">Sexual Offenses</a></h3>
-                                </div>
-                            </div>-->
-            </div>
-        </div>
-    </section>
-
-    <section class="ftco-section bg-secondary">
         <div class="container-fluid">
             <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+                <div class="col-md-7 text-center heading-section ftco-animate">
                     <h2 class="mb-4">Our Attorneys</h2>
                 </div>
             </div>
