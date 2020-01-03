@@ -31,7 +31,7 @@ echo $buffer;
 			<div class="row">
                 <div class="col-lg-12 order-md-last ftco-animate fadeInUp ftco-animated">
                     <h4 class="mb-4">What We Do</h4>
-                    <p>Our law firm specializes in the representation of injured workers before the Workers' Compensation Appeals Board, especially in cases involving public safety officers. Although this is our speciality, we do offer representation for SSDI and IDR for clients we already represent on their workers' compensation cases.</p>
+                    <p>Our law firm specializes in the representation of injured workers before the Workers' Compensation Appeals Baord, especially in cases involving public safety officers. Although this is our speciality, we do offer representation for SSDI and IDR for clients we already represent on their workers' compensation cases.</p>
                     <p>To learn more about the areas of law we represent, click below.</p>
                 </div>
 			</div>
