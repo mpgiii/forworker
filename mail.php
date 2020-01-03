@@ -54,16 +54,18 @@ else {
 		
 		$mail->setFrom("no-reply@forworker.com", "Website Contact Form");
 		
-		$mail->addAddress("georgariou3@gmail.com"); //replace email with liz's once we get smtp settings
+		$mail->addAddress("liz@forworker.com"); //replace email with liz's once we get smtp settings
 		$mail->Subject = "Contact Form from: $name";
 		$mail->Body = "Name: $name\n Address: $address, $citystate\n Phone number: $phone\n Email: $email\n Employer: $employer\n Date of injury: $doi\n Message:\n $injury";
 
-		$mail->Host = "localhost"; //replace with smtp server
-		$mail->Port = 25; //replace with smtp port
+		$mail->isSMTP();
+		$mail->Host = "smtp.gmail.com"; //replace with smtp server
+        $mail->Port = 465;
 
-		$mail->SMTPAuth = false; //set to true to set up username and password for the smtp server
-		$mail->Username = "";
-		$mail->Password = "";
+		$mail->SMTPAuth = true; //set to true to set up username and password for the smtp server
+		$mail->SMTPSecure = 'ssl';
+        $mail->Username = "forworker.contact.form@gmail.com";
+		$mail->Password = "Forworker";
 
 		if (!$mail->send()) {
 			$errorset = True;
