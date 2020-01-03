@@ -1,6 +1,8 @@
 <?php
 
-include('class.phpmailer.php');
+require('PHPMailer.php');
+require('SMTP.php');
+require('Exception.php');
 
 $firsttime = False;
 $errorset = False;
@@ -48,10 +50,9 @@ else {
 	}
 
 	if (!isset($name_error) && !isset($address_error) && !isset($citystate_error) && !isset($phone_error) && !isset($email_error) && !isset($employer_error) && !isset($doi_error) && !isset($injury_error)) {
-		$mail = new PHPMailer;
+		$mail = new PHPMailer\PHPMailer\PHPMailer();
 		
-		$mail->From = "no-reply@forworker.com";
-		$mail->FromName = "Website Contact Form";
+		$mail->setFrom("no-reply@forworker.com", "Website Contact Form");
 		
 		$mail->addAddress("georgariou3@gmail.com"); //replace email with liz's once we get smtp settings
 		$mail->Subject = "Contact Form from: $name";
