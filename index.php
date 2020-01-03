@@ -58,7 +58,7 @@ echo $buffer;
                             workers' compensation and social security laws.</p>
                     </div>
                 </div>
-                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-4">
+                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
                     <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="links.html">Links</a></h3>
