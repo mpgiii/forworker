@@ -64,8 +64,8 @@ else {
 
 		$mail->SMTPAuth = true; //set to true to set up username and password for the smtp server
 		$mail->SMTPSecure = 'ssl';
-        $mail->Username = "forworker.contact.form@gmail.com";
-		$mail->Password = "Forworker";
+        $mail->Username = "<REDACTED>";
+		$mail->Password = "<REDACTED>";
 
 		if (!$mail->send()) {
 			$errorset = True;
