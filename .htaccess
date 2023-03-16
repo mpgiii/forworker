@@ -5,14 +5,9 @@ RewriteBase /
 
 #DirectoryIndex index.php index.html
 
-#Move all links from sprenklegeorgariou.com forworker.com
-RewriteCond %{HTTP_HOST} ^sprenklegeorgariou.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.sprenklegeorgariou.com [NC]
-RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301,NC]
-
-#Move www to non-www
-RewriteCond %{HTTP_HOST} ^www.forworker.com [NC]
-RewriteRule ^(.*)$ http://forworker.com/$1 [L,R=301]
+#Move all links from old domains to sprenklegeorgariou.com
+RewriteCond %{HTTP_HOST} !sprenklegeorgariou.com$ [NC]
+RewriteRule ^(.*)$ https://sprenklegeorgariou.com/$1 [L,R=301]
 
 #Redirect 404s
 ErrorDocument 404 /404.html
