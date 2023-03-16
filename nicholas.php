@@ -5,7 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Nicholas J. Dilles", $buffer);
-$buffer = str_replace("%DESC%", "Nicholas Dilles specializes in workers' compensation, social security disability, and industrial disability retirement. He is a partner at Sprenkle, Georgariou and Dilles, LLP.", $buffer);
+$buffer = str_replace("%DESC%", "Nicholas Dilles specializes in workers' compensation and industrial disability retirement. He is a partner at Sprenkle, Georgariou and Dilles, LLP.", $buffer);
 echo $buffer;
 ?>
 
@@ -33,6 +33,14 @@ echo $buffer;
                     <img src="images/njd.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-9 col-sm-6">
+                    <p>Attorney Nicholas J. Dilles is a partner at Sprenkle, Georgariou & Dilles, LLP and a certified 
+					specialist in Workers' Compensation Law by the State Bar of California Board of Legal Specialization.
+					Mr. Dilles has established a reputation for his tenacity and resourceful approach in representing
+					his clients before the Workers’ Compensation Appeals Board and at the appellate level. In addition to
+					his extensive experience handling complex and catastrophic injury cases, Mr. Dilles has specialized
+					knowledge regarding the presumptions and benefits available to peace officers and public safety officers,
+					including police officers, correctional officers, deputy sheriffs, firefighters, California Highway
+					Patrol officers, and District Attorney investigators.</p>
                     <h5 class="mb-3">Education:</h5>
                     <p>J.D., UCLA School of Law, 2012<br>
                         B.A., Political Science, UCLA, 2009</p>
@@ -43,13 +51,12 @@ echo $buffer;
                     <h5 class="mb-3">Admitted:</h5>
                     <p>State Bar of California.</p>
                     <h5 class="mb-3">Community:</h5>
-                    <p>After graduating from law school, Mr. Dilles provided legal aid services at
-                        California Rural Legal Assistance in Watsonville, California. Mr. Dilles
-                        participates in an annual Scrabble fundraiser to support the Santa Cruz County
-                        Law Library and Teen Peer Court.</p>
+                    <p>Mr. Dilles provides educational presentations on workers’ compensation and disability retirement law
+					issues and the specific benefits available to public safety officers. Mr. Dilles participates in an
+					annual Scrabble fundraiser to support the Santa Cruz County Law Library and Teen Peer Court. </p>
                     <h5 class="mb-3">Personal:</h5>
-                    <p>Mr. Dilles enjoys exploring coastal California with his wife, hiking, and
-                        trail running with his dog.</p>
+                    <p>Mr. Dilles enjoys exploring coastal California with his wife and daughter, hiking, and
+                    trail running with his dog.</p>
                 </div>
 
 

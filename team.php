@@ -46,10 +46,9 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in
-                                        Workers’
-                                        Compensation Law by the State Bar of California Board of Legal
-                                        Specialization.<br>
+                                    <p>Attorney Stephen D. Sprenkle, who retired as of May 31, 2019, focused his practice on
+									representing public safety officers for over 46 years. He provided exceptional legal
+									representation, and was known in the community as the premier attorney for them.<br>
                                         <a href="stephen.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">
@@ -75,10 +74,10 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the
-                                        State
-                                        Bar of California Board of Legal Specialization, and is bilingual
-                                        (English-Spanish).<br>
+                                    <p>Attorney Michael P. Georgariou II is the senior and managing partner. He represents
+									hundreds of peace officers, and is very familiar with the unique circumstances and
+									legally-presumptive injuries applicable to them in their cases. He is committed to
+									providing exceptional legal representation, and is known in the community for such.<br>
                                         <a href="michael.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">
@@ -104,10 +103,10 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>After graduating from law school, Mr. Dilles provided legal aid services at
-                                        California Rural Legal Assistance in Watsonville, California before joining this
-                                        law
-                                        firm.<br>
+                                    <p>Attorney Nicholas J. Dilles is a partner at Sprenkle, Georgariou & Dilles, LLP and a
+									certified specialist in Workers' Compensation Law by the State Bar of California Board
+									of Legal Specialization. Mr. Dilles has established a reputation for his tenacity and
+									resourceful approach in representing his clients.<br>
                                         <a href="nicholas.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">

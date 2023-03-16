@@ -15,11 +15,12 @@ echo $buffer;
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
-                    <h1 class="mb-3 bread">Workers' Compensation</h1>
+                    <h1 class="mb-3 bread">Workers' Compensation Law</h1>
                     <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                                        class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a
-                                    href="practice-areas.html">Practice Areas <i class="ion-ios-arrow-forward"></i></a></span>
-                        <span>Workers' Compensation <i class="ion-ios-arrow-forward"></i></span></p>
+                                        class="ion-ios-arrow-forward"></i></a></span>
+						<span class="mr-2"><a href="practice-areas.html">Practice Areas <i
+                                        class="ion-ios-arrow-forward"></i></a></span>
+                        <span>Workers' Compensation Law <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>
@@ -33,7 +34,7 @@ echo $buffer;
                     <!--<p>
                     <img src="images/practice-1.jpg" alt="" class="img-fluid">
                   </p>-->
-                    <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP are experienced with and skilled at helping injured workers obtain the workers' compensation benefits which they are legally owed.</p>
+                    <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP specialize in the representation of injured workers before the Workers' Compensation Appeals Board, especially in cases involving all injuries of public safety officers, and catastrophic injuries of all employees. Although this is our specialty, we may also be able and willing to refer our clients for representation for other legal matters such as Industrial Disability Retirement, SSDI, and personal injury cases.</p>
                     <h4 class="mb-3">Depending on your case, benefits may include:</h4>
                     <ul>
                         <li>Medical treatment with a qualified doctor</li>

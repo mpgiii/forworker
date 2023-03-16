@@ -4,7 +4,7 @@ include("indexheader.html");
 $buffer = ob_get_contents();
 ob_end_clean();
 
-$buffer = str_replace("%TITLE%", "Sprenkle, Georgariou & Dilles, LLP.", $buffer);
+$buffer = str_replace("%TITLE%", "Sprenkle, Georgariou & Dilles, LLP", $buffer);
 echo $buffer;
 ?>
 
@@ -18,12 +18,10 @@ echo $buffer;
                 <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 
                     <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                        <span>Sprenkle, Georgariou & Dilles, LLP.</span>
+                        <span>Sprenkle, Georgariou & Dilles, LLP</span>
                     </h1>
-                    <h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: .2 }"><br>Partners
-                        Michael P. Georgariou II and Nicholas J. Dilles have the reputations for quality trial skills
-                        and in-depth knowledge of California workers' compensation laws. For existing workers' compensation clients, we also provide legal services
-                        related to Social Security disability and industry disability retirement claims.<br></h2>
+                    <h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: .2 }"><br>
+                        The law firm of Sprenkle, Georgariou & Dilles, LLP represents injured workers before the Workers’ Compensation Appeals Board. Attorneys Michael P. Georgariou II, Nicholas J. Dilles and Samuel J. Lawrence have extensive knowledge of California workers' compensation laws and a proven reputation for effective advocacy and successful results. Our law firm is conveniently located in the same building as the Salinas Workers’ Compensation Appeals Board and serves Monterey, Santa Cruz, and San Benito Counties.<br></h2>
                     <p><br><br><a href="contact.html" class="btn btn-primary py-3 px-4">Request a Free Consultation</a>
                     </p>
                 </div>
@@ -34,7 +32,7 @@ echo $buffer;
     <section class="ftco-section ftco-no-pb services-section">
         <div class="container">
             <div class="row no-gutters d-flex">
-                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
+                <div class="col-md-4 text-center services align-self-stretch ftco-animate p-3">
                     <div class="icon"><span class="flaticon-auction"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
@@ -43,27 +41,19 @@ echo $buffer;
                             owed.</p>
                     </div>
                 </div>
-                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
+                <div class="col-md-4 text-center services align-self-stretch ftco-animate p-3">
                     <div class="icon"><span class="flaticon-shield"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="#">Public Safety Representation</a></h3>
                         <p>Our law firm has the reputation of quality representation for public safety officers who were injured on the job.</p>
                     </div>
                 </div>
-                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
+                <div class="col-md-4 text-center services align-self-stretch ftco-animate p-3">
                     <div class="icon"><span class="flaticon-lawyer"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3"><a href="team.html">Our Attorneys</a></h3>
                         <p>Our attorneys are known for quality trial skills and in-depth knowledge of California
-                            workers' compensation and social security laws.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center services align-self-stretch ftco-animate p-3">
-                    <div class="icon"><span class="ion-ios-help-circle-outline"></span></div>
-                    <div class="media-body">
-                        <h3 class="heading mb-3"><a href="links.html">Links</a></h3>
-                        <p>There are some resources which may be helpful to look over before or during the pursual of an
-                            injured worker case.</p>
+                            workers' compensation law.</p>
                     </div>
                 </div>
             </div>
@@ -86,8 +76,7 @@ echo $buffer;
                                 injured workers before the Workers' Compensation Appeals Board.<br>
                                 Workers' compensation law is one of the most complicated areas of California law.
                                 Partners Michael P. Georgariou II and Nicholas J. Dilles have the reputations for
-                                quality trial skills and in-depth knowledge of California workers' compensation laws. We
-                                also provide legal services related to Social Security disability claims.<br>
+                                quality trial skills and in-depth knowledge of California workers' compensation laws.<br>
                                 Most of our staff is fluently bilingual (Spanish-English).<br></p>
                             <h5 class="mb-4">Why Choose Us?</h5>
                             <p>Our primary concern is helping injured workers obtain quality medical care and the proper
@@ -124,9 +113,7 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in
-                                        Workers’ Compensation Law by the State Bar of California Board of Legal
-                                        Specialization.<br>
+                                    <p>Attorney Stephen D. Sprenkle, who retired as of May 31, 2019, focused his practice on representing public safety officers for over 46 years. He provided exceptional legal representation, and was known in the community as the premier attorney for them.<br>
                                         <a href="stephen.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">
@@ -152,9 +139,7 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the
-                                        State Bar of California Board of Legal Specialization, and is bilingual
-                                        (English-Spanish).<br>
+                                    <p>Attorney Michael P. Georgariou II is the senior and managing partner. He represents hundreds of peace officers, and is very familiar with the unique circumstances and legally-presumptive injuries applicable to them in their cases. He is committed to providing exceptional legal representation, and is known in the community for such.<br>
                                         <a href="michael.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">
@@ -180,9 +165,7 @@ echo $buffer;
                             <div class="back">
                                 <!-- back content -->
                                 <blockquote>
-                                    <p>After graduating from law school, Mr. Dilles provided legal aid services at
-                                        California Rural Legal Assistance in Watsonville, California before joining this
-                                        law firm.<br>
+                                    <p>Attorney Nicholas J. Dilles is a partner at Sprenkle, Georgariou & Dilles, LLP and a certified specialist in Workers' Compensation Law by the State Bar of California Board of Legal Specialization. Mr. Dilles has established a reputation for his tenacity and resourceful approach in representing his clients.<br>
                                         <a href="nicholas.html" class="nav-link">Read more here.</a></p>
                                 </blockquote>
                                 <div class="author d-flex">

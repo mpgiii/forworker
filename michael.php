@@ -33,8 +33,15 @@ echo $buffer;
                     <img src="images/mpg.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-9 col-sm-6">
-                    <p>Mr. Georgariou is a certified specialist in Workers’ Compensation Law by the State Bar of
-                        California Board of Legal Specialization.</p>
+                    <p>Attorney Michael P. Georgariou II is the senior and managing partner who is a certified 
+					   specialist in Workers' Compensation Law by the State Bar of California Board of Legal 
+					   Specialization.</br>
+                       His practice is in the area of workers' compesation litigation, including both trial and 
+					   appellate work. He represents hundreds of peace officers, including correctional officers, 
+					   firefighters, and many other public safety and public employees, and is very familiar with 
+					   the unique circumstances and legally-presumptive injuries applicable to peace officers.</br>
+                       He is committed to providing exceptional legal representation, and is known in the community 
+					   for such.</p>
                     <h5 class="mb-3">Education:</h5>
                     <p>J.D., McGeorge School of Law, University of the Pacific, 2000<br>
                         B.S. Business Management, Brigham Young University, 1995</p>

@@ -5,7 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Practice Areas", $buffer);
-$buffer = str_replace("%DESC%", "Sprenkle, Georgariou and Dilles, LLP. offers services for cases involving workers' compensation, social security disability, and industrial disability retirement.", $buffer);
+$buffer = str_replace("%DESC%", "Sprenkle, Georgariou and Dilles, LLP. offers services for cases involving workers' compensation and industrial disability retirement.", $buffer);
 
 echo $buffer;
 ?>
@@ -31,36 +31,32 @@ echo $buffer;
 			<div class="row">
                 <div class="col-lg-12 order-md-last ftco-animate fadeInUp ftco-animated">
                     <h4 class="mb-4">What We Do</h4>
-                    <p>Our law firm specializes in the representation of injured workers before the Workers' Compensation Appeals Board, especially in cases involving public safety officers. Although this is our speciality, we do offer representation for SSDI and IDR for clients we already represent on their workers' compensation cases.</p>
-                    <p>To learn more about the areas of law we represent, click below.</p>
+                    <p> The attorneys of Sprenkle, Georgariou & Dilles, LLP specialize in the representation of injured
+					workers before the Workers' Compensation Appeals Board, especially in cases involving all injuries
+					of public safety officers, and catastrophic injuries of all employees. Although this is our specialty,
+					we may also be able and willing to refer our clients for representation for other legal matters such
+					as Industrial Disability Retirement, SSDI, and personal injury cases.</p>
                 </div>
 			</div>
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4 col-lg-3 text-center">
+                <div class="col-md-6 col-lg-3 text-center">
                     <div class="practice-area bg-white ftco-animate p-4">
                         <div class="icon d-flex justify-content-center align-items-center">
                             <span class="flaticon-auction"></span>
                         </div>
                         <h3 class="mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                        <p>Sprenkle, Georgariou &amp; Dilles, LLP. specializes in workers' compensation, helping injured workers obtain the benefits which they are legally owed.</p>
+                        <p>Sprenkle, Georgariou &amp; Dilles, LLP. specializes in workers' compensation, helping injured
+						workers obtain the benefits which they are legally owed.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3 text-center">
-                    <div class="practice-area bg-white ftco-animate p-4">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-money"></span>
-                        </div>
-                        <h3 class="mb-3"><a href="social-security.html">Social Security Disability</a></h3>
-                        <p>For existing workers' compensation clients, our firm can help with Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI).</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 text-center">
+                <div class="col-md-6 col-lg-3 text-center">
                     <div class="practice-area bg-white ftco-animate p-4">
                         <div class="icon d-flex justify-content-center align-items-center">
                             <span class="flaticon-employee"></span>
                         </div>
                         <h3 class="mb-3"><a href="#">Industrial Disability Retirement</a></h3>
-                        <p>For existing workers' compensation clients, our firm can help with Industrial Disability Retirement (IDR).</p>
+                        <p>For existing workers' compensation clients, our firm can help with Industrial Disability 
+					    Retirement (IDR).</p>
                     </div>
                 </div>
                 <!-- other icons <div class="col-md-4 col-lg-3 text-center">

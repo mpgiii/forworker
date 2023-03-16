@@ -34,9 +34,12 @@ echo $buffer;
                     <img src="images/3.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-9 col-sm-6">
-                    <p>Mr. Sprenkle, who retired as of May 31, 2019, was a certified specialist in Workers’ Compensation
-                        Law by the State Bar of California Board of Legal Specialization, and limited his practice to
-                        the representation of public safety officers.</p>
+                    <p>Attorney Stephen D. Sprenkle, who retired as of May 31, 2019, was a certified specialist in Workers'
+					Compensation Law by the State Bar of California Board of Legal Specialization.</br>
+                    His practice of 46 years was in the area of workers' compensation litigation, including both trial and
+					appellate work.</br>
+                    He represented countless public safety officers, and other employees. He provided exceptional legal
+					representation, and was known in the community for such.</p>
                     <h5 class="mb-3">Education:</h5>
                     <p>J.D., University of Pittsburgh, 1973<br>
                         A.B., Columbia College, 1970</p>
