@@ -70,11 +70,11 @@ if (!isset($_POST['name'])) {
         $mail->SMTPAuth = true; //set to true to set up username and password for the smtp server
         $mail->SMTPSecure = 'ssl';
         $mail->Username = "forworker.contact.form@gmail.com";
-        $mail->Password = "Forworker";
+        $mail->Password = ""; //revoked leaked password, changed password. removing from git repo.
 
         $email = "forworker.contact.form@gmail.com";
         $clientId = '131786668585-prmrs4rmpnb7a9tjm1piefedhq8vei0v.apps.googleusercontent.com';
-        $clientSecret = 'swqOALH5qDHt293oUP6tSojp';
+        $clientSecret = ''; //revoked leaked secret, granted new one. removing from git repo.
 
         if (!$mail->send()) {
             $errorset = True;
@@ -87,7 +87,7 @@ if (!isset($_POST['name'])) {
 
 function reCaptcha($recaptcha)
 {
-    $secret = "6LdutHsaAAAAACWdoifvhPBZ1yRY0enruWB_THoR";
+    $secret = ""; //revoked leaked secret, granted new one. removing from git repo.
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $postvars = array("secret" => $secret, "response" => $recaptcha, "remoteip" => $ip);
