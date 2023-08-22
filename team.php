@@ -236,18 +236,18 @@ echo $buffer;
             <div class="col-lg-fifth col-sm-6">
                 <div class="block-2-staff ftco-animate">
                     <div class="flipper">
-                        <div class="front" style="background-image: url(images/acl_square.jpg);">
+                        <div class="front" style="background-image: url(images/maria.jpg);">
                             <div class="box">
-                                <h2>Arlett Campos</h2>
+                                <h2>Maria Montejano</h2>
                                 <p>Legal Assistant to Samuel Lawrence</p>
                             </div>
                         </div>
                         <div class="back">
                             <div class="author d-flex">
                                 <div class="image mr-3 align-self-center">
-                                    <img src="images/acl_square.jpg" alt="Arlett Campos">
+                                    <img src="images/maria.jpg" alt="Maria Montejano">
                                 </div>
-                                <div class="name align-self-center">Arlett Campos <span class="position">Legal Assistant
+                                <div class="name align-self-center">Maria Montejano <span class="position">Legal Assistant
                                         to Samuel Lawrence</span>
                                 </div>
                             </div>
@@ -258,18 +258,18 @@ echo $buffer;
             <div class="col-lg-fifth col-sm-6">
                 <div class="block-2-staff ftco-animate">
                     <div class="flipper">
-                        <div class="front" style="background-image: url(images/lbg_square.jpg);">
+                        <div class="front" style="background-image: url(images/acl2.jpg);">
                             <div class="box">
-                                <h2>Liz Gonzalez</h2>
+                                <h2>Arlett L. Campos</h2>
                                 <p>New Client Coordinator</p>
                             </div>
                         </div>
                         <div class="back">
                             <div class="author d-flex">
                                 <div class="image mr-3 align-self-center">
-                                    <img src="images/lbg_square.jpg" alt="Liz Gonzalez">
+                                    <img src="images/acl2.jpg" alt="Arlett L. Campos">
                                 </div>
-                                <div class="name align-self-center">Liz Gonzalez <span class="position">New Client
+                                <div class="name align-self-center">Arlett L. Campos <span class="position">New Client
                                         Coordinator</span>
                                 </div>
                             </div>
