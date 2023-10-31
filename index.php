@@ -16,19 +16,16 @@ echo $buffer;
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
             data-scrollax-parent="true">
             <div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    <span>Sprenkle, Georgariou & Dilles, LLP</span>
+                <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                    <span>Michael P. Georgariou II</span>
                 </h1>
-                <h2 class="subheading" data-scrollax="properties: { translateY: '30%', opacity: .2 }"><br>
-                    The law firm of Sprenkle, Georgariou & Dilles, LLP represents injured workers before the Workers’
-                    Compensation Appeals Board. Attorneys Michael P. Georgariou II, Nicholas J. Dilles and Samuel J.
-                    Lawrence have extensive knowledge of California workers' compensation laws and a proven reputation
-                    for effective advocacy and successful results. Our law firm is conveniently located in the same
-                    building as the Salinas Workers’ Compensation Appeals Board and serves Monterey, Santa Cruz, and San
-                    Benito Counties.<br></h2>
-                <p><br><br><a href="contact.html" class="btn btn-primary py-3 px-4">Request a Free Consultation</a>
-                </p>
+                <h2 class="mb-4" style="color:white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Attorney at Law</h2>
+                <h2 class="subheading">
+                    Michael P. Georgariou II, formerly of the law firm of Sprenkle & Georgariou, LLP, has extensive knowledge of California workers' compensation laws and a proven reputation for effective advocacy and successful results.  He has represented thousands of those injured at work, especially law enforcement officers and others with catastrophic injuries. <br/><br/>
+                    Mr. Georgariou provides no-pressure, no-cost consultations so you may be more informed of your rights to benefits under California workers’ compensation law for specific and cumulative injuries and illnesses, and death claims.  He also provides expert advice as to how your work injury could result in disability retirement if you have a CalPERS-covered employer.<br/><br/>
+                    Please click on the link below to request a free consultation with Mr. Georgariou, either online via Zoom or in person at 318 Cayuga Street, Salinas, California (in the same office with, but not affiliated with, JRG Attorneys at Law).<br/>
+                </h2>
+                <a href="contact.html" class="btn btn-primary py-3 px-4 mt-5">Request a Free Consultation</a>
             </div>
         </div>
     </div>

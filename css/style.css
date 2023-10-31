@@ -5505,7 +5505,7 @@ textarea.form-control {
 
 .block-2,.block-2 .front,.block-2 .back {
   width: 100%;
-  height: 437px;
+  height: 550px;
 }
 
 .block-2 .flipper {
@@ -5675,7 +5675,7 @@ textarea.form-control {
     transform: rotateY(180deg); }*/
   .block-2-staff, .block-2-staff .front, .block-2-staff .back {
     width: 100%;
-    height: 437px; }
+    height: 550px; }
   .block-2-staff .flipper {
     -webkit-transition: 0.3s;
     -webkit-transform-style: preserve-3d;

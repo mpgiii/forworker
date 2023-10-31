@@ -4,7 +4,7 @@ include("header.html");
 $buffer = ob_get_contents();
 ob_end_clean();
 
-$buffer = str_replace("%TITLE%", "Our Team", $buffer);
+$buffer = str_replace("%TITLE%", "Attorneys", $buffer);
 $buffer = str_replace("%DESC%", "The employees at Sprenkle, Georgariou and Dilles, LLP. includes multiple attorneys, legal assistants, and back staff, creating an environment best suited to helping workers receive the benefits they deserve.", $buffer);
 
 echo $buffer;
@@ -16,9 +16,9 @@ echo $buffer;
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
             <div class="col-md-9 ftco-animate pb-5 text-center">
-                <h1 class="mb-3 bread">Our Team</h1>
+                <h1 class="mb-3 bread">Attorneys</h1>
                 <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                                class="ion-ios-arrow-forward"></i></a></span> <span>Our Team <i
+                                class="ion-ios-arrow-forward"></i></a></span> <span>Attorneys <i
                             class="ion-ios-arrow-forward"></i></span></p>
             </div>
         </div>
@@ -30,7 +30,7 @@ echo $buffer;
     <div class="container-fluid" style="max-width:1000px">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 text-center heading-section ftco-animate">
-                <h2 class="mb-4">Our Attorneys</h2>
+                <h2 class="mb-4">Attorneys</h2>
             </div>
         </div>
         <div class="row">
@@ -75,11 +75,7 @@ echo $buffer;
                         <div class="back">
                             <!-- back content -->
                             <blockquote>
-                                <p>Attorney Michael P. Georgariou II is the senior and managing partner. He represents
-                                    hundreds of peace officers, and is very familiar with the unique circumstances and
-                                    legally-presumptive injuries applicable to them in their cases. He is committed to
-                                    providing exceptional legal representation, and is known in the community for
-                                    such.<br>
+                                <p>Attorney Michael P. Georgariou II has been a licensed attorney since June 2000. He has practiced workers' compensation law since 2001. He has represented thousands of employees injured on the job, including police officers, deputy sheriffs, correctional officers, firefighters, and many other public safety and public employees. He is very familiar with the unique circumstances and legally-presumptive injuries applicable to such public safety professionals.<br/>
                                     <a href="michael.html" class="nav-link">Read more here.</a>
                                 </p>
                             </blockquote>

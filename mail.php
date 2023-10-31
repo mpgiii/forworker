@@ -151,9 +151,9 @@ echo $buffer;
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
-                    <h1 class="mb-3 bread">Contact Us</h1>
+                    <h1 class="mb-3 bread">Contact</h1>
                     <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                                    class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i
+                                    class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i
                                 class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
@@ -169,20 +169,20 @@ echo $buffer;
                 </div>
                 <div class="w-100"></div>
                 <div class="col-md-3">
-                    <p><span>Address:</span> 1880 N Main St #350, Salinas, CA 93906</p>
+                    <p><span>Address:</span> 318 Cayuga Street, Salinas, CA 93901</p>
                 </div>
                 <div class="col-md-3">
                     <p><span>Phone:</span> <a href="tel:8314498011">(831) 449-8011</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>Email:</span> <a href="mailto:info@forworker.com">info@forworker.com</a></p>
+                    <p><span>Email:</span> <a href="mailto:mpg@forworker.com">mpg@forworker.com</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>Website:</span> <a href="https://sprenklegeorgariou.com">sprenklegeorgariou.com</a></p>
+                    <p><span>Website:</span> <a href="https://sprenklegeorgariou.com">sprenklegeorgariou.com or forworker.com</a></p>
                 </div>
             </div>
             <div class="row block-9">
-                <div class="col-lg-8 order-md-last d-flex">
+                <div class="col-lg-12 order-md-last d-flex">
                     <form action="https://formspree.io/f/mdobwkek" method="POST" class="bg-light p-5 contact-form">
                         <?php if ($mailsent): ?>
                             <p style="color:#FF0000" ;>There were one or more errors with your submission:</p>
@@ -319,16 +319,6 @@ echo $buffer;
                     </form>
 
 
-                </div>
-                <div class="col-lg-4 d-flex">
-                    <p><BR>Useful forms:<br>
-                        <a target="_blank" href="pdf/payment_record.pdf">Payment record</a><br>
-                        <a target="_blank" href="pdf/mileagelog2023a.pdf">Mileage log form</a><br>
-                        <a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Treatment denial
-                            form</a><br>
-                        <a target="_blank" href="pdf/Treatment-Medication Denial form 2016.pdf">Prescription denial
-                            form</a><br>
-                        <a target="_blank" href="pdf/mileagerates2023a.pdf">Mileage Reimbursement Rates</a>
                 </div>
 
 

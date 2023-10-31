@@ -19,10 +19,12 @@ ErrorDocument 403 /access-denied.html
 Redirect 301 /attorney.html /team.html
 Redirect 301 /michael-p-georgariou-ii.html /michael.html
 Redirect 301 /stephen-d-sprenkle.html /stephen.html
-Redirect 301 /nicholas-j-dilles.html /nicholas.html
+Redirect 301 /nicholas-j-dilles.html /team.html
+Redirect 301 /nicholas.html /team.html
 Redirect 301 /compensation.html /workers-compensation.html
 Redirect 301 /faq.html /index.html
-Redirect 301 /samuel-j-lawrence.html /samuel.html
+Redirect 301 /samuel-j-lawrence.html /team.html
+Redirect 301 /samuel.html /team.html
 Redirect 301 /jennifer-e-zander.html /team.html
 Redirect 301 /link.html /links.html
 Redirect 301 /sara-j-tortorelli.html /team.html
@@ -47,16 +49,6 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule stephen.html stephen.php [NC]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule nicholas.html nicholas.php [NC]
-
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule samuel.html samuel.php [NC]
 
 RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$

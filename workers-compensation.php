@@ -35,12 +35,8 @@ echo $buffer;
                 <!--<p>
                     <img src="images/practice-1.jpg" alt="" class="img-fluid">
                   </p>-->
-                <p>The attorneys of Sprenkle, Georgariou & Dilles, LLP specialize in the representation of injured
-                    workers before the Workers' Compensation Appeals Board, especially in cases involving all injuries
-                    of public safety officers, and catastrophic injuries of all employees. Although this is our
-                    specialty, we may also be able and willing to refer our clients for representation for other legal
-                    matters such as Industrial Disability Retirement, SSDI, and personal injury cases.</p>
-                <h4 class="mb-3">Depending on your case, benefits may include:</h4>
+                <p>Michael P. Georgariou II has specialized in the workers’ compensation law for over 21 years, representing hundreds if not thousands of employees, especially public safety officers, in cases involving all injuries including catastrophic and presumptive injuries.  Although this has been his specialty, he has referred many other prospective clients for representation for other legal matters such as Industrial Disability Retirement, SSDI, and personal injury cases.</p>
+                <h4 class="mb-3">Depending on your workers' compensation case, benefits may include:</h4>
                 <ul>
                     <li>Medical treatment with a qualified doctor</li>
                     <li>Medical supplies and assistance</li>
@@ -50,12 +46,9 @@ echo $buffer;
                     <li>Death benefits for dependents</li>
                 </ul>
                 <h4 class="mb-3">Do You Have a Workers' Compensation Case?</h4>
-                <p>If you were injured on the job, or have developed a condition from work, you may be entitled to
-                    workers' compensation benefits. The benefits you are entitled to usually depend on the impact
-                    the injury has on you physically and financially.</p>
-                <p>Far too often, disputes arise over what benefits are owed to you. If you have questions about the
-                    benefits to which you may be entitled, please contact us.</p>
-                <h4 class="mb-3">Sprenkle, Georgariou & Dilles, LLP has successfully litigated cases involving:</h4>
+                <p>If you were injured on the job, or have developed a condition from work, you may be entitled to workers' compensation benefits. The benefits to which you may be entitled depend on the impact the injury has on you physically and financially.</p>
+                <p>Far too often, disputes arise over what benefits are owed to you. If you have questions about the benefits to which you may be entitled, please contact me.</p>
+                <h4 class="mb-3">Mr. Georgariou has successfully litigated cases involving:</h4>
                 <ul>
                     <li>Back injuries, including fractures, back sprains, strains, and herniated discs</li>
                     <li>Head, brain, and neck injuries, including concussions and headaches</li>
@@ -71,15 +64,9 @@ echo $buffer;
                     <li>RSD, CRPS, TMJ, and internal injuries</li>
                     <li>Cardiovascular, stroke, diabetes, toxic exposure and lung injuries</li>
                 </ul>
-                <h2 class="mb-3 mt-5">How We Can Help:</h2>
-                <p>Thousands of Californians suffer a Workers' Compensation injury or condition each year. Now, more
-                    than ever, the medical and monetary benefits you are legally entitled to are delayed and denied.
-                    Generally, the sooner you identify your rights, the better the results will be in your case. The
-                    aggressive and experienced representation from the attorneys and staff of Sprenkle, Georgariou &
-                    Dilles, LLP will make a difference in your workers' compensation case which involves one of the
-                    most complicated areas of California law.</p>
-                <p>We have the experience and knowledge to evaluate the potential benefits and compensation to which
-                    you may be legally entitled!</p>
+                <h2 class="mb-3 mt-5">How Can Mr. Georgariou Help?</h2>
+                <p>Thousands of Californians suffer a Workers' Compensation injury or condition each year. Now, more than ever, the medical and monetary benefits to which you may be legally entitled are delayed and denied. Generally, the sooner you identify your rights, the better the results will be in your case. Mr. Georgariou will be able to provide you advice and a plan so to give you a better chance of success in your workers' compensation case which involves one of the most complicated areas of California law.</p>
+                <p>He has the experience and knowledge to evaluate the potential benefits and compensation to which you may be legally entitled!</p>
                 <p><a href="contact.html" class="btn btn-primary">Request Free Consultation</a></p>
 
 
