@@ -9,6 +9,10 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} !sprenklegeorgariou.com$ [NC]
 RewriteRule ^(.*)$ https://sprenklegeorgariou.com/$1 [L,R=301]
 
+#Force HTTPS
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 #Redirect 404s
 ErrorDocument 404 /404.html
 
