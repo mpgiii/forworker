@@ -4,12 +4,12 @@ include("indexheader.html");
 $buffer = ob_get_contents();
 ob_end_clean();
 
-$buffer = str_replace("%TITLE%", "Sprenkle, Georgariou & Dilles, LLP", $buffer);
+$buffer = str_replace("%TITLE%", "Michael P. Georgariou II", $buffer);
 echo $buffer;
 ?>
 
 
-<div class="hero-wrap js-fullheight" style="background-image: url('images/staff.jpg');"
+<div class="hero-wrap js-fullheight" style="background-image: url('images/temp.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
@@ -20,15 +20,14 @@ echo $buffer;
                     <span>Michael P. Georgariou II</span>
                 </h1>
                 <h2 class="mb-4" style="color:white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Attorney at Law</h2>
-                <h2 class="subheading">
+                <h2 class="subheading"">
                     Michael P. Georgariou II, formerly of the law firm of Sprenkle & Georgariou, LLP, has extensive knowledge of California workers' compensation laws and a proven reputation for effective advocacy and successful results.  He has represented thousands of those injured at work, especially law enforcement officers and others with catastrophic injuries. <br/><br/>
-                    Mr. Georgariou provides no-pressure, no-cost consultations so you may be more informed of your rights to benefits under California workers’ compensation law for specific and cumulative injuries and illnesses, and death claims.  He also provides expert advice as to how your work injury could result in disability retirement if you have a CalPERS-covered employer.<br/><br/>
                     Please click on the link below to request a free consultation with Mr. Georgariou, either online via Zoom or in person at 318 Cayuga Street, Salinas, California (in the same office with, but not affiliated with, JRG Attorneys at Law).<br/>
                 </h2>
                 <a href="contact.html" class="btn btn-primary py-3 px-4 mt-5">Request a Free Consultation</a>
             </div>
         </div>
-    </div>
+    </div>Ï
 </div>
 
 <section class="ftco-section ftco-no-pb services-section">
@@ -38,7 +37,7 @@ echo $buffer;
                 <div class="icon"><span class="flaticon-auction"></span></div>
                 <div class="media-body">
                     <h3 class="heading mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                    <p>Our attorneys are experienced with and skilled at
+                    <p>Mr. Georgariou experienced with and skilled at
                         helping injured workers obtain the workers' compensation benefits which they are legally
                         owed.</p>
                 </div>
@@ -47,7 +46,7 @@ echo $buffer;
                 <div class="icon"><span class="flaticon-shield"></span></div>
                 <div class="media-body">
                     <h3 class="heading mb-3"><a href="#">Public Safety Representation</a></h3>
-                    <p>Our law firm has the reputation of quality representation for public safety officers who were
+                    <p>Mr. Georgariou has the reputation of quality representation for public safety officers who were
                         injured on the job.</p>
                 </div>
             </div>
@@ -55,8 +54,8 @@ echo $buffer;
                 <div class="icon"><span class="flaticon-lawyer"></span></div>
                 <div class="media-body">
                     <h3 class="heading mb-3"><a href="team.html">Our Attorneys</a></h3>
-                    <p>Our attorneys are known for quality trial skills and in-depth knowledge of California
-                        workers' compensation law.</p>
+                    <p>Our attorneys are known for in-depth knowledge of California
+                        workers' compensation law and disability retirement.</p>
                 </div>
             </div>
         </div>
@@ -74,19 +73,11 @@ echo $buffer;
             <div class="col-md-6 px-5 py-5">
                 <div class="row justify-content-start pt-3 pb-3">
                     <div class="col-md-12 heading-section ftco-animate">
-                        <h2 class="mb-4">Firm Overview</h2>
-                        <p>The law firm of Sprenkle, Georgariou & Dilles, LLP specializes in the representation of
-                            injured workers before the Workers' Compensation Appeals Board.<br>
-                            Workers' compensation law is one of the most complicated areas of California law.
-                            Partners Michael P. Georgariou II and Nicholas J. Dilles have the reputations for
-                            quality trial skills and in-depth knowledge of California workers' compensation laws.<br>
-                            Most of our staff is fluently bilingual (Spanish-English).<br></p>
+                        <h2 class="mb-4">Overview</h2>
+                        <p>Mr. Georgariou provides no-pressure, no-cost consultations so you may be more informed of your rights to benefits under California workers’ compensation law for specific and cumulative injuries and illnesses, and death claims.  He also provides expert advice as to how your work injury could result in disability retirement if you have a CalPERS-covered employer.<br/><br/>
+                        </p>
                         <h5 class="mb-4">Why Choose Us?</h5>
-                        <p>Our primary concern is helping injured workers obtain quality medical care and the proper
-                            benefits. We have provided skilled and aggressive representation for thousands of
-                            injured workers, securing the quality medical care and financial benefits to which they
-                            have been entitled. As a result, we have been fortunate to have received most of our new
-                            clients by referrals from former and current satisfied clients. We can help you too!</p>
+                        <p>Mr. Georgariou has been a licensed attorney since June 2000, and has exclusively practiced workers' compensation law since 2001. He has represented thousands of employees injured on the job, including police officers, deputy sheriffs, correctional officers, firefighters, and many other public safety and public employees. He is also bilingual (English-Spanish).</p>
 
                     </div>
                 </div>
@@ -146,11 +137,7 @@ echo $buffer;
                         <div class="back">
                             <!-- back content -->
                             <blockquote>
-                                <p>Attorney Michael P. Georgariou II is the senior and managing partner. He represents
-                                    hundreds of peace officers, and is very familiar with the unique circumstances and
-                                    legally-presumptive injuries applicable to them in their cases. He is committed to
-                                    providing exceptional legal representation, and is known in the community for
-                                    such.<br>
+                                <p>Attorney Michael P. Georgariou II has been a licensed attorney since June 2000.  He has exclusively practiced workers' compensation law since 2001.  He has represented thousands of employees injured on the job, including police officers, deputy sheriffs, correctional officers, firefighters, and many other public safety and public employees.  He is very familiar with the unique circumstances and legally-presumptive injuries applicable to such public safety professionals.<br>
                                     <a href="michael.html" class="nav-link">Read more here.</a>
                                 </p>
                             </blockquote>

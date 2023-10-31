@@ -5,11 +5,11 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Michael P. Georgariou II", $buffer);
-$buffer = str_replace("%DESC%", "Michael Georgariou is a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and is a partner at Sprenkle, Georgariou and Dilles, LLP.", $buffer);
+$buffer = str_replace("%DESC%", "Michael Georgariou is a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and was a partner at Sprenkle & Georgariou, LLP.", $buffer);
 echo $buffer;
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');"
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/temp.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">

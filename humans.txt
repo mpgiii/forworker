@@ -12,7 +12,7 @@
 	Written with help from Michael Georgariou II and Nicholas Dilles
 
 /* SITE */
-Last update: 2023/03/15
+Last update: 2023/10/31
 Standards: HTML5, CSS3
 Components: jQuery
 Software: Notepad++, FileZilla, Paint.NET, git

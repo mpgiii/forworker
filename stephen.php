@@ -5,12 +5,12 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Stephen D. Sprenkle", $buffer);
-$buffer = str_replace("%DESC%", "Stephen Sprenkle was a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and was previously a partner at Sprenkle, Georgariou and Dilles, LLP. before he retired.", $buffer);
+$buffer = str_replace("%DESC%", "Stephen Sprenkle was a certified specialist in Workers’ Compensation Law by the State Bar of California Board of Legal Specialization, and was previously a partner at Sprenkle & Georgariou, LLP. before he retired.", $buffer);
 
 echo $buffer;
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');"
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/temp.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">

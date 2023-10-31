@@ -10,7 +10,7 @@ $buffer = str_replace("%DESC%", "Sprenkle, Georgariou and Dilles, LLP. offers se
 echo $buffer;
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/staff_wide.jpg');"
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/temp.jpg');"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
