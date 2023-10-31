@@ -5,7 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Attorneys", $buffer);
-$buffer = str_replace("%DESC%", "The employees at Sprenkle, Georgariou and Dilles, LLP. includes multiple attorneys, legal assistants, and back staff, creating an environment best suited to helping workers receive the benefits they deserve.", $buffer);
+$buffer = str_replace("%DESC%", "Attorneys Stephen Sprenkle and Michael Georgariou have a proven reputation with public safety officers in Monterey County.", $buffer);
 
 echo $buffer;
 ?>

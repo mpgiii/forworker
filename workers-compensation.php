@@ -5,7 +5,7 @@ $buffer = ob_get_contents();
 ob_end_clean();
 
 $buffer = str_replace("%TITLE%", "Workers' Compensation", $buffer);
-$buffer = str_replace("%DESC%", "The firm of Sprenkle, Georgariou & Dilles, LLP has skill, reputation, and experience in helping injured workers obtain the workers' compensation benefits which they are legally owed.", $buffer);
+$buffer = str_replace("%DESC%", "Michael P. Georgariou II can assist in getting injured workers all the benefits they are entitled to. Workers' compensation law is one of the most complicated areas of California law.", $buffer);
 echo $buffer;
 ?>
 
