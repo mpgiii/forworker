@@ -20,9 +20,9 @@ echo $buffer;
                     <span>Michael P. Georgariou II</span>
                 </h1>
                 <h2 class="mb-4" style="color:white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Attorney at Law</h2>
-                <h2 class="subheading"">
+                <h2 class="subheading">
                     Michael P. Georgariou II, formerly of the law firm of Sprenkle & Georgariou, LLP, has extensive knowledge of California workers' compensation laws and a proven reputation for effective advocacy and successful results.  He has represented thousands of those injured at work, especially law enforcement officers and others with catastrophic injuries. <br/><br/>
-                    Please click on the link below to request a free consultation with Mr. Georgariou, either online via Zoom or in person at 318 Cayuga Street, Salinas, California (in the same office with, but not affiliated with, JRG Attorneys at Law).<br/>
+                    Please click on the link below to request a free consultation with Mr. Georgariou, either online via Zoom or in person at 1880 North Main Street, Suite 300, Salinas, CA which is conveniently located in the same building as the Salinas Workers’ Compensation Appeals Board, and which is in the same office as, but not affiliated with, Valley View Home Loans.<br/>
                 </h2>
                 <a href="contact.html" class="btn btn-primary py-3 px-4 mt-5">Request a Free Consultation</a>
             </div>
@@ -37,7 +37,7 @@ echo $buffer;
                 <div class="icon"><span class="flaticon-auction"></span></div>
                 <div class="media-body">
                     <h3 class="heading mb-3"><a href="workers-compensation.html">Workers' Compensation</a></h3>
-                    <p>Mr. Georgariou experienced with and skilled at
+                    <p>Mr. Georgariou is experienced with and skilled at
                         helping injured workers obtain the workers' compensation benefits which they are legally
                         owed.</p>
                 </div>

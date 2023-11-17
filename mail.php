@@ -87,7 +87,7 @@ if (!isset($_POST['name'])) {
 
 function reCaptcha($recaptcha)
 {
-    $secret = ""; //revoked leaked secret, granted new one. removing from git repo.
+    $secret = "6LdutHsaAAAAACWdoifvhPBZ1yRY0enruWB_THoR"; //revoked leaked secret, granted new one. removing from git repo.
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $postvars = array("secret" => $secret, "response" => $recaptcha, "remoteip" => $ip);
@@ -169,7 +169,7 @@ echo $buffer;
                 </div>
                 <div class="w-100"></div>
                 <div class="col-md-3">
-                    <p><span>Address:</span> 318 Cayuga Street, Salinas, CA 93901</p>
+                    <p><span>Address:</span> <a href="https://maps.app.goo.gl/a62fy7pqvPbwrKSF7">1880 North Main Street, Suite 300, Salinas, CA 93906</a></p>
                 </div>
                 <div class="col-md-3">
                     <p><span>Phone:</span> <a href="tel:8314498011">(831) 449-8011</a></p>
