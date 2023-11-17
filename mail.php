@@ -87,7 +87,7 @@ if (!isset($_POST['name'])) {
 
 function reCaptcha($recaptcha)
 {
-    $secret = "6LdutHsaAAAAACWdoifvhPBZ1yRY0enruWB_THoR"; //revoked leaked secret, granted new one. removing from git repo.
+    $secret = ""; //revoked leaked secret, granted new one. removing from git repo.
     $ip = $_SERVER['REMOTE_ADDR'];
 
     $postvars = array("secret" => $secret, "response" => $recaptcha, "remoteip" => $ip);
