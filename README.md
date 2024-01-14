@@ -1,5 +1,5 @@
 # forworker
-Website for Sprenkle, Georgariou &amp; Dilles, LLP.
+Website for Michael Georgariou II, formerly for Sprenkle, Georgariou &amp; Dilles, LLP.
 
 Worked on over winter break. Now maintained here and there as needed.
 
