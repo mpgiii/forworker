@@ -33,7 +33,7 @@ echo $buffer;
                 <img src="images/mpg.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-lg-9 col-sm-6">
-                <p>Attorney Michael P. Georgariou II has been a licensed attorney since June 2000.  He has exclusively practiced workers' compensation law since 2001.  He has represented thousands of employees injured on the job, including police officers, deputy sheriffs, correctional officers, firefighters, and many other public safety and public employees.  He is very familiar with the unique circumstances and legally-presumptive injuries applicable to such public safety professionals.</p>
+                <p>Attorney Michael P. Georgariou II has been a licensed attorney since June 2001.  He has exclusively practiced workers' compensation law since 2002.  He has represented thousands of employees injured on the job, including police officers, deputy sheriffs, correctional officers, firefighters, and many other public safety and public employees.  He is very familiar with the unique circumstances and legally-presumptive injuries applicable to such public safety professionals.</p>
                 <h5 class="mb-3">Education:</h5>
                 <p>J.D., McGeorge School of Law, University of the Pacific, 2000<br>
                     B.S. Business Management, Brigham Young University, 1995</p>
